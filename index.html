@@ -9,25 +9,108 @@
     <title>RCSAC-Interface</title>
 </head>
 <body>
-    
+
+    <h3>Welcome to the Risk-Coping Skills Against Cybergrooming Interface (RCSAC-Interface).</h3>
+
     <div class="conversation_history">
-        <p id="victim_msg">This is a test victim message.</p>
-        <p id="groomer_msg">This is a test groomer message.</p>
+        
+        <div id="responses">
+            <!-- <div class="message_row">
+            <p id="victim_msg">This is a test victim message.</p>
+            </div>
+            <div class="message_row">
+                <p id="groomer_msg">This is a test groomer message.</p>
+            </div>
+            <div class="message_row">
+                <p id="victim_msg">This is a test victim message.This is a test victim message.
+                    This is a test victim message.This is a test victim message.This is a test victim message.
+                    This is a test victim message.This is a test victim message.This is a test victim message.
+                </p>
+            </div>
+            <div class="message_row">
+                <p id="groomer_msg">This is a test groomer message.</p>
+            </div>
+            
+
+            <div class="message_row">
+                <p id="victim_msg">This is a test victim message.</p>
+            </div>
+            <div class="message_row">
+                <p id="groomer_msg">This is a test groomer message.</p>
+            </div>
+            <div class="message_row">
+                <p id="victim_msg">This is a test victim message.This is a test victim message.
+                    This is a test victim message.This is a test victim message.This is a test victim message.
+                    This is a test victim message.This is a test victim message.This is a test victim message.
+                </p>
+            </div>
+            <div class="message_row">
+                <p id="groomer_msg">This is a test groomer message.</p>
+            </div>
+
+
+            <div class="message_row">
+                <p id="victim_msg">This is a test victim message.</p>
+            </div>
+            <div class="message_row">
+                <p id="groomer_msg">This is a test groomer message.</p>
+            </div>
+            <div class="message_row">
+                <p id="victim_msg">This is a test victim message.This is a test victim message.
+                    This is a test victim message.This is a test victim message.This is a test victim message.
+                    This is a test victim message.This is a test victim message.This is a test victim message.
+                </p>
+            </div>
+            <div class="message_row">
+                <p id="groomer_msg">This is a test groomer message.</p>
+            </div>
+
+
+            <div class="message_row">
+                <p id="victim_msg">This is a test victim message.</p>
+            </div>
+            <div class="message_row">
+                <p id="groomer_msg">This is a test groomer message.</p>
+            </div>
+            <div class="message_row">
+                <p id="victim_msg">This is a test victim message.This is a test victim message.
+                    This is a test victim message.This is a test victim message.This is a test victim message.
+                    This is a test victim message.This is a test victim message.This is a test victim message.
+                </p>
+            </div>
+            <div class="message_row">
+                <p id="groomer_msg">This is a test groomer message.</p>
+            </div> -->
+        </div>
+
+
+        <div class="message_row">
+            <p id="victim_next">Next response goes here...</p>
+        </div>
+        <div class="message_row">
+            <p id="groomer_next">Next response goes here...</p>
+        </div>
     </div>
 
-    <div class="controls">
-        <div class="controls-groomer">
-            <button type="button">Groomer LLM</button>
-            <div class="user_input">
-                <input type="text">
-                <button type="button">Submit</button>
+    <div class="hider">
+        <div class="controls">
+            <div class="controls-groomer">
+                <button type="button" class="llm_btn" id="groomer_llm" onclick="llm_groomer()">Generate Groomer Response</button>
+                <div class="user_input">
+                    <!-- <input type="text" class="user_text"> -->
+                    <!-- <textarea id="groomer_text"></textarea> -->
+                    <span contenteditable="true" class="text-box" id="groomer_text"></span>
+                    <button type="button" class="text_submit" id="groomer_submit" onclick="submit_groomer()">➜</button>
+                </div>
             </div>
-        </div>
-        <div class="controls-victim">
-            <button type="button">Victim LLM</button>
-            <div class="user_input">
-                <input type="text">
-                <button type="button">Submit</button>
+            <div class="controls-victim">
+                <button type="button" class="llm_btn" id="victim_llm" onclick="llm_victim()">Generate Victim Response</button>
+                <div class="user_input">
+                    <!-- <input type="text" class="user_text"> -->
+                    <!-- <textarea id="victim_text"></textarea> -->
+                    <span contenteditable="true" class="text-box" id="victim_text"></span>
+                    <button type="button" class="text_submit" id="victim_submit" onclick="submit_victim()">➜</button>
+                </div>
             </div>
         </div>
     </div>

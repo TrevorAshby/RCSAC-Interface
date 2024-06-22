@@ -1,3 +1,197 @@
-.conversation_history {
+body {
+    background-color: rgb(32, 32, 32);
+    min-width: 480px;
+}
 
+h3 {
+    color: rgb(206, 206, 206);
+    margin-left: 50px;
+}
+
+.conversation_history {
+    border: solid rgb(65, 65, 65);
+    width: 60%;
+    max-height: 600px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.message_row {
+    width: 100%;
+    height: fit-content;
+}
+
+#victim_msg {
+    background-color: rgb(56, 56, 56);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+    color: aliceblue;
+    /* float: right; */
+    max-width: 70%;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+#groomer_msg {
+    background-color: rgb(63, 35, 35);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+    color: aliceblue;
+    max-width: 70%;
+    margin-left: 10px;
+}
+
+#victim_next {
+    color: rgb(110, 110, 110);
+    border: dashed rgb(56, 56, 56);
+    width: fit-content;
+    padding: 8px;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+#groomer_next {
+    color: rgb(117, 65, 65);
+    border: dashed rgb(63, 35, 35);
+    width: fit-content;
+    padding: 8px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+.hider {
+    background-color: rgb(32, 32, 32);
+    /* background-color: red; */
+    width: 99%;
+    height: 20%;
+    margin-top: 10px;
+    /* position: absolute; */
+    bottom: 0px;
+}
+
+.controls {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    /* position: absolute; */
+    /* bottom: 50px; */
+    /* left: 20%; */
+}
+
+.controls-groomer {
+    margin: auto;
+    margin-top: 0;
+    width: 90%;
+    height: fit-content;
+}
+
+.controls-victim {
+    margin: auto;
+    width: 90%;
+    margin-top: 0;
+    height: fit-content;
+}
+
+
+.llm_btn {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(199, 199, 199);
+    color: black;
+    font-weight: bold;
+}
+
+.llm_btn:disabled {
+    background-color: rgb(126, 126, 126);
+    color: rgb(56, 56, 56);
+    pointer-events: none;
+}
+
+.llm_btn:hover{
+    cursor: pointer;
+    background-color: rgb(161, 161, 161);
+}
+
+
+
+.user_input {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 85% auto;
+    margin-top: 10px;
+    background-color: rgb(56, 56, 56);
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.user_text {
+    /* width: 70%; */
+}
+
+.text_submit {
+    /* width: 25%; */
+    transform: rotate(-90deg);
+    margin: auto;
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(199, 199, 199);
+}
+
+.text_submit:hover{
+    cursor: pointer;
+    background-color: rgb(161, 161, 161);
+}
+
+.text_submit:disabled{
+    background-color: rgb(126, 126, 126);
+    color: rgb(56, 56, 56);
+    pointer-events: none;
+}
+
+.text-box {
+    /* border: solid 1px rgb(247, 247, 247); */
+    background-color: rgb(56, 56, 56);
+    border-radius: 20px 0px 0px 20px;
+    color: rgb(201, 201, 201);
+    min-width:100px;
+    max-width: 100%;
+    padding: 10px;
+    display: inline-block;
+}
+
+.disabled {
+    color: rgb(56, 56, 56);
+    pointer-events: none;
+}
+
+.text-box:focus{
+    outline:0;
+}
+
+.text-box:hover{
+    cursor:text;
+}
+
+
+span[contenteditable] {
+    display: inline-block;
+}
+span[contenteditable]:empty::before {
+    content: 'Insert a custom response...';
+    display: inline-block;
+}
+span[contenteditable]:empty:focus::before {
+    content: 'Start typing...';
 }
