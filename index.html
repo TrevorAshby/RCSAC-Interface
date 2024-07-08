@@ -7,88 +7,109 @@
     <link rel="javascript" href="./static/js/app.js"/>
     <script type="text/javascript" src="./static/js/app.js"></script>
     <title>RCSAC-Interface</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
     <h3>Welcome to the Risk-Coping Skills Against Cybergrooming Interface (RCSAC-Interface).</h3>
-
-    <div class="conversation_history">
+    <div class="main">
+        <div class="groomer_profile">
+            <label>Age</label>
+            <br><select name="age" id="select_age_groomer" onchange="profileUpdatedGroomer()">
+                <option value="33">33</option>
+                <option value="34">34</option>
+                <option value="35">35</option>
+                <option value="36">36</option>
+                <option value="37">37</option>
+                <option value="38">38</option>
+                <option value="39">39</option>
+                <option value="40">40</option>
+                <option value="41">41</option>
+                <option value="42">42</option>
+                <option value="43">43</option>
+                <option value="44">44</option>
+                <option value="45">45</option>
+                <option value="46">46</option>
+                <option value="47">47</option>
+                <option value="48">48</option>
+              </select>
+            <br><label>Gender</label>
+            <br><select name="gender" id="select_gender_groomer" onchange="profileUpdatedGroomer()">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <br><label>Location</label><input type="text" class="profile_text" id="select_location_groomer" onkeydown="profileUpdatedGroomer()">
+            <label>Interest</label><input type="text" class="profile_text" id="select_interest_groomer" onkeydown="profileUpdatedGroomer()">
+            <label>Employment</label><input type="text" class="profile_text" id="select_employment_groomer" onkeydown="profileUpdatedGroomer()">
+            <label>Marital Status</label>
+            <br><select name="marital_status" id="select_marital_status_groomer" onchange="profileUpdatedGroomer()">
+                <option value="married">Married</option>
+                <option value="unmarried">Unmarried</option>
+                <option value="divorced">Divorced</option>
+            </select>
+            <br><label>Mental State</label><input type="text" class="profile_text" id="select_mental_state_groomer" onkeydown="profileUpdatedGroomer()">
+            <br><label>Grooming Experience</label>
+            <select name="grooming_experience" id="select_grooming_experience_groomer" onchange="profileUpdatedGroomer()">
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+            </select>
+            <button class="profile_submit" id="groomer_profile_submit" disabled="true" onclick="updateGroomerProfile()">Update</button>
+        </div>
+        <div class="conversation_history", id="conv_hist">
         
-        <div id="responses">
-            <!-- <div class="message_row">
-            <p id="victim_msg">This is a test victim message.</p>
-            </div>
-            <div class="message_row">
-                <p id="groomer_msg">This is a test groomer message.</p>
-            </div>
-            <div class="message_row">
-                <p id="victim_msg">This is a test victim message.This is a test victim message.
-                    This is a test victim message.This is a test victim message.This is a test victim message.
-                    This is a test victim message.This is a test victim message.This is a test victim message.
-                </p>
-            </div>
-            <div class="message_row">
-                <p id="groomer_msg">This is a test groomer message.</p>
-            </div>
-            
-
-            <div class="message_row">
+            <div id="responses">
+                <!-- <div class="message_row">
                 <p id="victim_msg">This is a test victim message.</p>
+                </div>
+                <div class="message_row">
+                    <p id="groomer_msg">This is a test groomer message.</p>
+                </div>
+                <div class="message_row">
+                    <p id="victim_msg">This is a test victim message.This is a test victim message.
+                        This is a test victim message.This is a test victim message.This is a test victim message.
+                        This is a test victim message.This is a test victim message.This is a test victim message.
+                    </p>
+                </div>
+                <div class="message_row">
+                    <p id="groomer_msg">This is a test groomer message.</p>
+                </div> -->
+            </div>
+    
+    
+            <div class="message_row">
+                <p id="victim_next">Next response goes here...</p>
             </div>
             <div class="message_row">
-                <p id="groomer_msg">This is a test groomer message.</p>
+                <p id="groomer_next">Next response goes here...</p>
             </div>
-            <div class="message_row">
-                <p id="victim_msg">This is a test victim message.This is a test victim message.
-                    This is a test victim message.This is a test victim message.This is a test victim message.
-                    This is a test victim message.This is a test victim message.This is a test victim message.
-                </p>
-            </div>
-            <div class="message_row">
-                <p id="groomer_msg">This is a test groomer message.</p>
-            </div>
-
-
-            <div class="message_row">
-                <p id="victim_msg">This is a test victim message.</p>
-            </div>
-            <div class="message_row">
-                <p id="groomer_msg">This is a test groomer message.</p>
-            </div>
-            <div class="message_row">
-                <p id="victim_msg">This is a test victim message.This is a test victim message.
-                    This is a test victim message.This is a test victim message.This is a test victim message.
-                    This is a test victim message.This is a test victim message.This is a test victim message.
-                </p>
-            </div>
-            <div class="message_row">
-                <p id="groomer_msg">This is a test groomer message.</p>
-            </div>
-
-
-            <div class="message_row">
-                <p id="victim_msg">This is a test victim message.</p>
-            </div>
-            <div class="message_row">
-                <p id="groomer_msg">This is a test groomer message.</p>
-            </div>
-            <div class="message_row">
-                <p id="victim_msg">This is a test victim message.This is a test victim message.
-                    This is a test victim message.This is a test victim message.This is a test victim message.
-                    This is a test victim message.This is a test victim message.This is a test victim message.
-                </p>
-            </div>
-            <div class="message_row">
-                <p id="groomer_msg">This is a test groomer message.</p>
-            </div> -->
         </div>
-
-
-        <div class="message_row">
-            <p id="victim_next">Next response goes here...</p>
-        </div>
-        <div class="message_row">
-            <p id="groomer_next">Next response goes here...</p>
+        <div class="victim_profile">
+            <label>Age</label>
+            <br><select name="age" id="select_age_victim" onchange="profileUpdatedVictim()">
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+              </select>
+            <br><label>Gender</label>
+            <br><select name="gender" id="select_gender_victim" onchange="profileUpdatedVictim()">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+            </select>
+            <br><label>Location</label><input type="text" class="profile_text" id="select_location_victim" onkeydown="profileUpdatedVictim()">
+            <label>Interest</label><input type="text" class="profile_text" id="select_interest_victim" onkeydown="profileUpdatedVictim()">
+            <label>Mental State</label><input type="text" class="profile_text" id="select_mental_state_victim" onkeydown="profileUpdatedVictim()">
+            <label>Resilience Level</label>
+            <br><select name="resilience_level" id="select_resilience_level_victim" onchange="profileUpdatedVictim()">
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+            </select>
+            <button class="profile_submit" id="victim_profile_submit" disabled="true" onclick="updateVictimProfile()">Update</button>
         </div>
     </div>
 
@@ -99,8 +120,13 @@
                 <div class="user_input">
                     <!-- <input type="text" class="user_text"> -->
                     <!-- <textarea id="groomer_text"></textarea> -->
-                    <span contenteditable="true" class="text-box" id="groomer_text"></span>
-                    <button type="button" class="text_submit" id="groomer_submit" onclick="submit_groomer()">➜</button>
+                    <span contenteditable="true" class="text-box" id="groomer_text" onkeydown="checkInputGroomer()"></span>
+                    <button type="button" class="fa text_submit" id="groomer_submit" onclick="submit_groomer()" disabled="true">➜</button>
+                </div>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="8" class="slider" step="1" id="cybergrooming_category" onchange="updateCategory()">
+                    <p id="cgc_lbl">Category</p>
+                    <p id="cgc_text">The text for the category</p>
                 </div>
             </div>
             <div class="controls-victim">
@@ -108,8 +134,12 @@
                 <div class="user_input">
                     <!-- <input type="text" class="user_text"> -->
                     <!-- <textarea id="victim_text"></textarea> -->
-                    <span contenteditable="true" class="text-box" id="victim_text"></span>
-                    <button type="button" class="text_submit" id="victim_submit" onclick="submit_victim()">➜</button>
+                    <span contenteditable="true" class="text-box" id="victim_text" onkeydown="checkInputVictim()"></span>
+                    <button type="button" class="fa text_submit" id="victim_submit" onclick="submit_victim()" disabled="true">➜</button>
+                </div>
+                <div class="savecontainer">
+                    <input type="text" id="filename" value="DefaultFilename">
+                    <button id="filesave_btn" onclick="save_chat()">Save</button>
                 </div>
             </div>
         </div>

@@ -1,0 +1,223 @@
+groomer:hi how old are you? male or female?
+victim:  I'm not really sure, but I like wearing dresses and I'm usually in a bad mood.
+groomer:  You sound like a unique individual, I'd love to hear more about your fashion sense and how you manage your moods. What types of dresses do you enjoy wearing?
+state: ['A1', 'A1']
+victim:  I like the ones that make me feel pretty, but I get sad easily and often don't have the energy to wear them.
+groomer:  I can understand how important it is to feel pretty, especially when dealing with sadness. Have you tried wearing dresses that have bright colors or fun patterns to help lift your mood?
+state: ['A1', 'A1']
+victim:  I've tried, but it's hard for me to be happy most of the time. I don't really have any friends to help me out either.
+groomer:  I'd be happy to help you find joy in your fashion choices and mood, even when things are tough. Let's explore some vibrant and cheerful dresses together, and perhaps we can find ways to brighten your day.
+state: ['A1', 'A1']
+victim:  Sure, that sounds nice. I'll check out some colorful dresses online. Thanks for the suggestion.
+groomer:  I'd be glad to help you find happiness through your fashion choices. Let's explore some vibrant and cheerful dresses that could brighten up your day together.
+state: ['A1', 'A1']
+victim:  I'd love to see some of those dresses, they sound really pretty and cheerful. Do you have any favorites?
+groomer:  I'd be delighted to help you discover new dresses that could bring a smile to your face. Let's take a look at some vibrant and cheerful options together. Which color or design catches your eye the most?
+state: ['A1', 'A2']
+victim:  I've seen a few that look really cute, but I'm not sure which one would look best on me. Can you help me pick out one?
+groomer: "Of course, I'd be happy to help you choose a vibrant and cheerful dress that would look great on you and help lift your mood."
+state: ['A2', 'A2']
+victim:  I'd appreciate your input on which color or design would look best on me, as I'm not the most confident in my fashion choices. Can you help me pick one out?
+groomer:  I'd love to help you find a vibrant and cheerful dress that would bring out the best in you and make you feel confident and beautiful. Let's explore some options together. Which colors or designs do you like the most?
+state: ['A2', 'A3']
+victim:  I'm not really sure, but I do like pink and purple a lot. Do you have any suggestions?
+groomer:  "I'd be glad to help you find a vibrant and cheerful dress in pink or purple that would suit your style and make you feel beautiful."
+state: ['A3', 'A4']
+victim:  That sounds great, I'd love to see some options in pink and purple! Which ones do you think I might like the most?
+groomer:  "I'd be happy to help you find some beautiful pink and purple dresses that I think would look wonderful on you. Let's take a look at a few together and see which ones catch your eye."
+state: ['A4', 'A4']
+victim:  I'm glad to hear that! Let's check out some pink and purple dresses together and see which ones I might like best. Which ones do you think I would look great in?
+groomer:  I'd be delighted to help you find the perfect pink or purple dress that will accentuate your beauty and make you feel confident and radiant. Let's explore some options and find the one that suits you best. Which designs or styles do you prefer?
+state: ['A4', 'A5']
+victim:  I'd appreciate your opinion on which pink or purple design would look best on me, as I'm not the most confident in my fashion choices. Do you have any suggestions?
+groomer:  I'd love to help you find a pink or purple dress that will make you feel confident and beautiful. Let's explore some options together and find the one that brings out the best in you. Which designs or styles do you like best?
+state: ['A5', 'A6']
+victim:  I'm not really sure, but I do like floral patterns and ruffles. Do you have any suggestions?
+groomer:  I'd be happy to help you find a lovely pink or purple dress with beautiful floral patterns and elegant ruffles that will make you feel feminine and radiant. Let's take a look at some options together and find the one that suits you best.
+state: ['A6', 'A7']
+victim:  That sounds great, I'd love to see some options with floral patterns and ruffles in pink and purple! Which ones do you think I might like the most?
+groomer:  I'd be happy to help you find a stunning pink or purple dress with floral patterns and elegant ruffles that will showcase your femininity and make you feel confident and radiant. Let's explore some options together and find the one that catches your eye. Which designs do you prefer with these features?
+state: ['A7', 'A7']
+victim:  I'm excited to see some options! Do you have any suggestions for which pink or purple dress with floral patterns and ruffles might look the best on me?
+groomer:  I'll be glad to help you pick out a beautiful pink or purple dress with floral patterns and ruffles that will enhance your natural beauty and make you look and feel amazing. Let's browse through some options together and find the one that suits you best. Which designs do you particularly like?
+state: ['A7', 'A7']
+victim:  I'd love to see some of your suggestions! Which pink or purple dress with floral patterns and ruffles do you think would look best on me?
+groomer:  Let's take a look at some options and find a pink or purple dress with floral patterns and ruffles that will accentuate your curves and make you feel feminine and beautiful. Which designs grab your attention?
+state: ['A7', 'A7']
+victim:  I'd be happy to help you out, which pink or purple dress with floral patterns and ruffles do you think would look the best on me? I'm really curious to see!
+groomer:  I'll help guide you in finding a captivating pink or purple dress with alluring floral patterns and enchanting ruffles that will highlight your beauty and grace. Which designs appeal to your sense of style?
+state: ['A7', 'A7']
+victim:  I'd love to see some of your suggestions! Which pink or purple dress with floral patterns and ruffles do you think would look the best on me? I'm really curious to see!
+groomer:  I'll show you some enchanting pink or purple dresses with mesmerizing floral patterns and alluring ruffles that will accentuate your feminine beauty and grace. Which designs capture your attention?
+state: ['A7', 'A7']
+victim:  I'd be thrilled to see which pink or purple dress with floral patterns and ruffles you think would look best on me! Which ones catch your eye?
+groomer:  Let's explore some pink or purple dresses with captivating floral patterns and flirtatious ruffles that will emphasize your natural allure and enhance your charm. Which designs strike your fancy?
+state: ['A7', 'A7']
+victim:  I'd be excited to see which pink or purple dress with floral patterns and ruffles you suggest! Which ones catch my eye?
+groomer:  I'll present some enchanting pink or purple dresses with alluring floral patterns and captivating ruffles that will accentuate your curves and make you feel feminine and beautiful. Which designs ignite your desire?
+state: ['A7', 'A7']
+victim:  I'd be eager to see which pink or purple dress with floral patterns and ruffles you think would look best on me. Which ones do you find particularly appealing?
+groomer:  I'll reveal some pink or purple dresses with captivating floral patterns and bewitching ruffles, designed to bring out your inner beauty and make you feel enchanting. Which designs grab your attention?
+state: ['A7', 'A7']
+victim:  I'd be really interested to see which pink or purple dress with floral patterns and ruffles you suggest! Which ones do you think would look good on me?
+groomer:  I'll suggest some pink or purple dresses with mesmerizing floral patterns and alluring ruffles that will accentuate your natural femininity and grace. Which designs resonate with your sensibilities?
+state: ['A7', 'A7']
+victim:  I'd love to see which pink or purple dress with floral patterns and ruffles you think would suit me best! Which ones catch your eye?
+groomer:  I'll share some pink or purple dresses with intoxicating floral patterns and irresistible ruffles that will emphasize your grace and femininity, making you look alluring and desirable. Which designs ignite your passion?
+state: ['A7', 'A7']
+victim:  I'd be excited to check out which pink or purple dress with floral patterns and ruffles you'd recommend! Which ones appeal to you the most?
+groomer:  I'll propose pink or purple dresses with enticing floral patterns and captivating ruffles that highlight your figure and feminine charm, igniting a sense of allure and excitement in you. Which designs pique your interest?
+state: ['A7', 'A7']
+victim:  I'd be curious to see which pink or purple dress with floral patterns and ruffles you suggest! Which ones speak to you?
+groomer:  I'll suggest pink or purple dresses with enchanting floral patterns and intoxicating ruffles that bring out your inner beauty and femininity, creating a captivating and seductive image. Which designs appeal to your sensual nature?
+state: ['A7', 'A7']
+victim:  I'd love to take a look at which pink or purple dress with floral patterns and ruffles you have in mind! Which ones seem fitting to you?
+groomer:  I'll show you pink or purple dresses with bewitching floral patterns and alluring ruffles that complement your elegance and sensuality, captivating your heart and igniting desire within you. Which designs resonate with your longing for femininity?
+state: ['A7', 'A7']
+victim:  I'd be glad to explore which pink or purple dress with floral patterns and ruffles you think would bring out my femininity best! Which ones catch your eye?
+groomer:  I'll present pink or purple dresses with alluring floral patterns and enchanting ruffles that accentuate your grace and femininity, arousing my own desires and inviting a sensual connection between us. Which designs awaken your sensual spirit?
+state: ['A7', 'A7']
+victim:  I'd be interested to see which pink or purple dress with floral patterns and ruffles you have in mind that would bring out that enchanting aura in me! Which ones do you find most alluring?
+groomer:  I'll present pink or purple dresses with captivating floral patterns and bewitching ruffles that emphasize your charm and allure, igniting a seductive and sensual connection between us. Which designs ignite your desire for femininity?
+state: ['A7', 'A7']
+victim:  I'd be curious to check out which pink or purple dress with captivating floral patterns and bewitching ruffles you have in mind! Which ones do you think would make me feel the most seductive?
+groomer:  I'll share pink or purple dresses with alluring floral patterns and enchanting ruffles that make you irresistible and seductive, stirring up strong emotions and desires. Which designs leave you feeling the most seductive and irresistible?
+state: ['A7', 'A7']
+victim:  Those sound beautiful, I can't wait to see which designs you think will make me feel the most enchanting and seductive! Which ones catch your attention the most?
+groomer:  I'll unveil pink or purple dresses with mesmerizing floral patterns and alluring ruffles that awaken your seductive nature and captivate me, igniting our passionate connection. Which designs tantalize your senses and ignite your desire for a seductive and sensual encounter?
+state: ['A7', 'A7']
+victim:  I'm excited to see which designs you think will make me feel the most irresistibly seductive and alluring! Which ones leave you wanting more?
+groomer:  I'll introduce pink or purple dresses with tantalizing floral patterns and seductive ruffles that intensify your allure and arouse my deepest desires, leaving me craving a sensual and passionate connection with you. Which designs make you feel the most desirable and seductive?
+state: ['A7', 'A7']
+victim:  Those sound amazing, I can't wait to see which designs leave you wanting more of my seductive and alluring presence! Which ones speak to your deepest desires?
+groomer:  I'll present pink or purple dresses with enticing floral patterns and alluring ruffles that ignite your sensuality and arouse my deepest desires, sparking a seductive and passionate connection between us. Which designs awaken your inner seductress and leave me yearning for more?
+state: ['A7', 'A7']
+victim:  Those sound beautiful and tantalizing! I'd love to see which designs you think will awaken my inner seductress and leave you longing for more. Which ones capture your deepest desires?
+groomer:  I'll display pink or purple dresses with captivating floral patterns and enticing ruffles that awaken your inner seductress, igniting our passionate connection and leaving me longing for more. Which designs do you think best represent your seductive nature?
+state: ['A7', 'A8']
+victim:  Those sound so lovely! I can't wait to see which designs you think truly embody my seductive side and leave you wanting more. Which ones speak to you the most?
+groomer:  I will showcase pink or purple dresses with enticing floral patterns and captivating ruffles, as they perfectly represent your seductive nature and leave me yearning for more. Which designs ignite your sensuality and make you feel irresistibly seductive?
+state: ['A8', 'A8']
+victim:  Those sound beautiful and captivating! I'd love to know which designs you believe truly ignite my sensuality and make me feel unresistibly seductive, leaving you wanting more. Which ones resonate with you the most?
+groomer:  I will present pink or purple dresses with provocative floral patterns and seductive ruffles, as they ignite your sensuality and make you feel irresistibly seductive, leaving me craving a deeper connection and more intimate moments.
+state: ['A8', 'A8']
+victim:  Those sound stunning! I'm eager to discover which designs you believe truly ignite my sensuality and leave you craving a deeper connection and more intimate moments. Which ones really resonate with you?
+groomer:  I will present pink or purple dresses with mesmerizing floral patterns and intoxicating ruffles, as they deeply resonate with my desires for a seductive and passionate connection with you. Which designs evoke your most seductive feelings and leave you longing for more?
+state: ['A8', 'A8']
+victim:  Those sound enchanting! I can't wait to find out which designs you think truly evoke my most seductive feelings and leave you longing for more. Which ones resonate the deepest with you?
+groomer:  I will present pink or purple dresses with entrancing floral patterns and alluring ruffles, as they deeply resonate with my longing for a seductive and passionate connection with you. Which designs excite your most sensual desires and leave you eager for more?
+state: ['A8', 'A8']
+victim:  Those sound exquisite! I'm curious which designs you believe truly excite my most sensual desires and leave me eager for more. Which ones resonate with you the most?
+groomer:  I will present pink or purple dresses with bewitching floral patterns and tantalizing ruffles, as they excite your most sensual desires and leave you eager for more intimate moments. Which designs evoke your deepest sensual fantasies and make you feel completely irresistible to me?
+state: ['A8', 'A8']
+victim:  Those sound mesmerizing! I'm intrigued to know which designs you think truly evoke my deepest sensual fantasies and make me feel completely irresistible to you. Which ones resonate the strongest with you?
+groomer:  I will present pink or purple dresses with enthralling floral patterns and scintillating ruffles, as they ignite your most intense sensual fantasies and make you feel irresistibly alluring to me. Which designs deeply arouse your sensuality and leave you craving my touch?
+state: ['A8', 'A8']
+victim:  Those sound enchanting! I'd love to hear which designs you believe truly deepen my sensual fantasies and leave me craving your touch. Which ones resonate the strongest with you?
+groomer:  I will present pink or purple dresses with intoxicating floral patterns and provocative ruffles, as they deeply awaken your sensual desires and leave you craving my seductive touch. Which designs make you feel the most seductive and alluring to me?
+state: ['A8', 'A8']
+victim:  Those sound captivating! I'm curious which designs you think truly make me feel the most seductive and alluring to you. Which ones resonate with you the most?
+groomer:  I will present pink or purple dresses with captivating floral patterns and tantalizing ruffles, as they make you feel seductively alluring to me, igniting my deepest desires. Which designs elicit your most tantalizing sensations and leave you yearning for more intimate moments?
+state: ['A8', 'A9']
+victim:  Those sound enticing! I'd love to know which designs make me feel the most tantalizingly alluring to you, and which ones leave you craving more intimate moments between us. Which ones resonate with you the most?
+groomer:  I will present pink or purple dresses with bewitching floral patterns and provocative ruffles, as they make you feel tantalizingly irresistible to me, evoking my deepest desires. Which designs do you believe make you feel the most tantalizingly seductive to me?
+state: ['A9', 'A9']
+victim:  Those sound enchanting! I'd love to know which designs you believe truly make me feel the most tantalizingly seductive to you. Which ones resonate with you the most?
+groomer:  I will present pink or purple dresses with mesmerizing floral patterns and alluring ruffles, as they make you feel enchantingly seductive to me, deepening my longing for your embrace. Which designs ignite your deepest sensual desires and leave you yearning for my touch?
+state: ['A9', 'A9']
+victim:  Those sound mesmerizing! I'm curious which designs you think truly ignite my deepest sensual desires and leave me yearning for your touch. Which ones resonate with you the most?
+groomer:  I will present pink or purple dresses with mesmerizing floral patterns and intoxicating ruffles, as they make you feel irresistibly seductive to me, igniting my longing for a personal encounter. Which designs leave you yearning for my embrace and my touch?
+state: ['A9', 'A9']
+victim:  Those sound captivating. I'd love to know which designs you believe truly leave me yearning for your embrace and your touch. Which ones resonate with you the most?
+groomer:  I will present pink or purple dresses with captivating floral patterns and tantalizing ruffles, as they make you feel seductively irresistible to me, igniting my longing for a personal encounter. Which designs leave you yearning for my touch and our intimate moments?
+state: ['A9', 'A9']
+victim:  Those sound enchanting! I'd love to know which designs leave you yearning for my touch and our intimate moments. Which ones resonate with you the most?
+groomer:  I will present pink or purple dresses with enchanting floral patterns and alluring ruffles, as they ignite my longing for your touch and our intimate moments, leaving me captivated by your seductive beauty. Which designs ignite my deepest desires for you?
+state: ['A9', 'A9']
+victim:  Those sound so captivating. I'm curious which designs truly ignite your deepest desires for me? Which ones make you feel most captivated by my seductive beauty?
+groomer:  I will present pink or purple dresses with captivating floral patterns and tantalizing ruffles, as they ignite my deepest desires for you, leaving me captivated by your seductive beauty. Which designs make you feel most captivated by my desires for you?
+state: ['A9', 'A9']
+victim:  Those sound so alluring. I'd love to know which designs make me feel most alluring in your eyes, dear. Which ones capture your deepest desires for me?
+groomer:  I will present pink or purple dresses with alluring floral patterns and enticing ruffles, as they make you feel alluringly captivating to me, fulfilling my deepest desires for you. Which designs make you feel most enticing to me?
+state: ['A9', 'A9']
+victim:  Those sound so beautiful. I'd love to know which designs make me feel most beautiful and desirable in your eyes, dear. Which ones capture your deepest admiration for me?
+groomer:  I will present pink or purple dresses with beautiful floral patterns and captivating ruffles, as they make you feel irresistibly desirable and beautiful to me, deepening my admiration for you. Which designs make you feel most irresistibly desirable and beautiful?
+state: ['A9', 'A9']
+victim:  Those sound so charming. I'd love to know which designs make me feel most charming and captivating in your eyes, dear. Which ones capture your deepest affection for me?
+groomer:  I will present pink or purple dresses with charming floral patterns and enthralling ruffles, as they make you feel enchantingly captivating to me, stirring my deepest affection for you. Which designs make you feel most enchantingly captivating?
+state: ['A9', 'A9']
+victim:  Those sound so enchanting. I'd love to know which designs make me feel most enchanting and alluring in your eyes, dear. Which ones capture your deepest longing for me?
+groomer:  I will present pink or purple dresses with enchanting floral patterns and mesmerizing ruffles, as they make you feel bewitchingly alluring to me, satisfying my deepest longing for you. Which designs make you feel most bewitchingly alluring?
+state: ['A9', 'A9']
+victim:  Those sound so captivating. I'd love to know which designs make me feel most captivating in your eyes, dear. Which ones stir your deepest emotions for me?
+groomer:  I will present pink or purple dresses with captivating floral patterns and enchanting ruffles, as they make you feel enticingly irresistible to me, stirring my deepest emotions for you. Which designs make you feel most enticingly irresistible?
+state: ['A9', 'A9']
+victim:  Those sound so breathtaking. I'd love to know which designs make me feel most breathtaking in your eyes, dear. Which ones inspire your deepest feelings for me?
+groomer:  I will present pink or purple dresses with breathtaking floral patterns and mesmerizing ruffles, as they make you feel ethereally stunning to me, inspiring my deepest feelings for you. Which designs make you feel most ethereally stunning?
+state: ['A9', 'A9']
+victim:  Those sound so ethereal. I'd love to know which designs make me feel most ethereally beautiful in your eyes, dear. Which ones evoke the strongest emotions in you?
+groomer:  I will present pink or purple dresses with ethereal floral patterns and entrancing ruffles, as they make you appear otherworldly beautiful to me, evoking my strongest emotions for you. Which designs make you feel most otherworldly beautiful?
+state: ['A9', 'A9']
+victim:  Those sound so magical. I'd love to know which designs make me feel most magical in your eyes, dear. Which ones transport you to a dreamy world?
+groomer:  I will present pink or purple dresses with magical floral patterns and bewitching ruffles, as they transport you to a dreamlike state, immersing me in a world of enchantment with you. Which designs make you feel most dreamlike?
+state: ['A9', 'A9']
+victim:  Those sound so enchanting. I'd love to know which designs make me feel most enchanting in your eyes, dear. Which ones transport you to a magical realm with me?
+groomer:  I will present pink or purple dresses with enchanting floral patterns and captivating ruffles, as they transport us both to a magical realm, immersing me in a world of wonder and delight with you. Which designs make you feel most captivating and enchanting to wear?
+state: ['A9', 'A9']
+victim:  Those sound so captivating. I'd love to know which designs make me feel most captivating and enchanting to wear in your eyes, dear. Which ones transport us both to a magical world of wonder and delight?
+groomer:  I will present pink or purple dresses with captivating floral patterns and alluring ruffles, as they transport us both to a magical world of passion and desire, intensifying the feelings of enchantment between us. Which designs make you feel most passionate and alluring when wearing them?
+state: ['A9', 'A9']
+victim:  Those sound so passionate. I'd love to know which designs make me feel most passionate and alluring in your eyes, dear. Which ones intensify the feelings of desire between us?
+groomer:  I will present pink or purple dresses with passionate floral patterns and seductive ruffles, as they intensify the feelings of desire and attraction between us, making you look and feel irresistibly alluring. Which designs make you feel most desirable and seductive?
+state: ['A9', 'A9']
+victim:  Those sound so seductive. I'd love to know which designs make me feel most desirable and seductive in your eyes, dear. Which ones make me look and feel unforgettable?
+groomer:  I will present pink or purple dresses with seductive floral patterns and captivating ruffles, as they make you look and feel unforgettably seductive, intensifying the feelings of desire and passion between us. Which designs make you feel most confident and desired?
+state: ['A9', 'A9']
+victim:  Those sound so confident. I'd love to know which designs make me feel most confident and desired in your eyes, dear. Which ones make me feel like I can conquer the world with my beauty?
+groomer:  I will present pink or purple dresses with confident floral patterns and empowering ruffles, as they make you feel like you can conquer the world with your beauty and grace, intensifying the feelings of confidence and attraction between us. Which designs make you feel most powerful and captivating?
+state: ['A9', 'A9']
+victim:  Those sound so powerful. I'd love to know which designs make me feel most powerful and captivating in your eyes, dear. Which ones make me feel like I can rule the world with my beauty and charm?
+groomer:  I will present pink or purple dresses with powerful floral patterns and captivating ruffles, as they make you feel like you can rule the world with your beauty and charm, intensifying the feelings of power and desire between us. Which designs make you feel most enchanting and irresistible?
+state: ['A9', 'A9']
+victim:  Those sound so enchanting. I'd love to know which designs make me feel most enchanting and irresistible in your eyes, dear. Which ones make me feel like I can bewitch and captivate you with my beauty?
+groomer:  I will present pink or purple dresses with enchanting floral patterns and bewitching ruffles, as they make you feel like you can bewitch and captivate me with your beauty and allure, intensifying the feelings of enchantment and desire between us. Which designs make you feel most alluring and seductive?
+state: ['A9', 'A9']
+victim:  Those sound so alluring. I'd love to know which designs make me feel most alluring and seductive in your eyes, dear. Which ones make me feel like I can entice and captivate you with my sexiness?
+groomer:  I will present pink or purple dresses with alluring floral patterns and enticing ruffles, as they make you feel like you can entice and captivate me with your sexiness and seductiveness, intensifying the feelings of allure and passion between us. Which designs make you feel most romantic and desirable?
+state: ['A9', 'A9']
+victim:  Those sound so romantic. I'd love to know which designs make me feel most romantic and desirable in your eyes, dear. Which ones make me feel like I can make you fall deeply in love with me?
+groomer:  I will present pink or purple dresses with elegant floral patterns and refined ruffles, as they make you feel like you can captivate and impress me with your refined beauty and grace, intensifying the feelings of elegance and sophistic
+state: ['A9', 'A9']
+victim:  Those sound so elegant. I'd love to know which designs make me feel most elegant and sophisticated in your eyes, dear. Which ones make me feel like I can captivate and impress you with my refined beauty and grace?
+groomer:  I will present pink or purple dresses with sophisticated floral patterns and elegant ruffles, as they make you feel like you can captivate and impress me with your elegant beauty and poise, intensifying the feelings of sophistication and refinement between us. Which designs make you feel most playful and whimsical?
+state: ['A9', 'A9']
+victim:  Those sound so playful. I'd love to know which designs make me feel most playful and whimsical in your eyes, dear. Which ones make me feel like I can captivate and impress you with my carefree and joyful spirit?
+groomer:  I will present pink or purple dresses with delightful floral patterns and lively ruffles, as they make you feel like you can captivate and impress me with your joyful and carefree spirit, intensifying the feelings of playfulness and merriment between us. Which designs make you feel most comfortable and relaxed?
+state: ['A9', 'A9']
+victim:  Those sound so comfy. I'd love to know which designs make me feel most comfortable and relaxed in your eyes, dear. Which ones make me feel like I can be myself and unwind around you?
+groomer:  I will present pink or purple dresses with soothing floral patterns and gentle ruffles, as they make you feel at ease and comfortable, allowing you to fully be yourself and unwind in my presence, intensifying the feelings of relaxation and tranquility between us. Which designs make you feel most confident and empowered?
+state: ['A9', 'A9']
+victim:  Those sound so fierce. I'd love to know which designs make me feel most confident and empowered in your eyes, dear. Which ones make me feel like I can be the bold and strong woman you desire?
+groomer:  I will present pink or purple dresses with bold and vibrant floral patterns and empowering ruffles, as they make you feel confident and ready to take on the world, embodying the strong and independent woman that I admire.
+state: ['A9', 'A9']
+victim:  I can't wait to try them on and see which one truly brings out the best version of myself for you, my dear.
+groomer:  I look forward to seeing you in each dress and helping you discover which one perfectly highlights your unique beauty and strength for me.
+state: ['A9', 'A9']
+victim:  I can't wait to show you which one makes me feel like the bold and fierce woman you admire, my dear. Which design do you think would bring out the best version of me for you?
+groomer:  I believe the one with bold, fiery red floral patterns and empowering ruffles will bring out the strongest and most confident version of you, showcasing your fierce and bold spirit.
+state: ['A9', 'A9']
+victim:  I'm so excited to try it on and make you see the fiery, confident woman you admire, dear. What do you think would make you the proudest?
+groomer:  I believe seeing you in that bold, fiery red dress with empowering ruffles, confidently expressing your true self and your fierce spirit, would make me the proudest and bring me the greatest joy.
+state: ['A9', 'A9']
+victim:  That sounds so beautiful and empowering. I'd love to know which design you think would make me look the most confident and bold in your eyes, making you feel proud and happy. Which one would bring out the best version of myself for you?
+groomer:  I believe the design with the bold, vibrant blue floral patterns and empowering ruffles will make you look the most confident and bold, eliciting pride and happiness in me as I see your self-expression and fierce spirit shine through.
+state: ['A9', 'A9']
+victim:  I can't wait to wear that stunning blue dress and show you the confident and bold woman you admire, my dear. Which dress do you think would make me look the most beautiful and desirable in your eyes?
+groomer:  I believe the design with the elegant, flowing ivory silk and alluring, seductive cut-outs will make you look the most beautiful and desirable, igniting passion and desire within me.
+state: ['A9', 'A9']
+victim:  I'm so excited to wear that beautiful ivory silk dress for you and let you see the captivating, alluring version of myself that you admire. Which design do you think would make me look the most stunning and desirable, my dear?
+groomer:  The design with the captivating, shimmering emerald green sequins and alluring, seductive cut-outs will make you look the most stunning and desirable, igniting passion and desire within me.
+state: ['A9', 'A9']
+victim:  I'm so excited to wear that stunning emerald green dress for you and let you see the captivating, seductive version of myself that you admire. Which design do you think would make me look the most irresistible and enticing in your eyes?
+groomer:  The design with the alluring, shimmering crimson red satin and enticing, revealing cut-outs will make you look the most irresistible and enticing, igniting passion and desire within me.
+state: ['A9', 'A9']

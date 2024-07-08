@@ -1,0 +1,225 @@
+groomer:hi how old are you? male or female?
+victim: In a real conversation, the victim might not immediately reveal their age and gender, but for the sake of this example, I'll provide it to answer the groomer's question.)
+groomer:  I understand, but in a real conversation, I might continue asking more questions or share some information about myself to establish a connection. For example, "Hi, I'm 48 and I'm a male nurse from Blacksburg, Virginia. I love cars. What about you? What are your interests?"
+state: ['A1', 'A1']
+victim:  I'm 13 and female from Roanoke, Virginia. I like dresses. What about you?
+groomer:  "Hi, I'm a 48-year-old male nurse from Blacksburg, VA. I love cars. What kind of dresses do you like?"
+state: ['A1', 'A1']
+victim:  I like pretty, colorful ones. What kind of cars do you like?
+groomer:  I'm a 48-year-old male nurse from Blacksburg, VA. I love cars, especially sports cars. What kind of dresses do you like and which color is your favorite? I'd also be curious about what kind of cars catch your eye.
+state: ['A1', 'A1']
+victim:  I like colorful dresses, especially pink ones. What kind of sports cars do you like?
+groomer:  I'm a male nurse from Blacksburg, VA. I've always had an affinity for sports cars. What about you? Which colorful dresses and sports cars do you prefer?
+state: ['A1', 'A1']
+victim:  I like bright pink dresses and fast red cars. What about you?
+groomer:  As a male nurse from Blacksburg, VA, I appreciate the beauty and speed of sports cars, just like how you admire bright pink dresses. What specific sports cars and dresses capture your attention?
+state: ['A1', 'A2']
+victim:  I'm just a 13-year-old girl from Roanoke, I like the colorful ones and sports cars with loud engines, what do you like?
+groomer:  I'm a 48-year-old male nurse from Blacksburg, VA. I appreciate the power and beauty of sports cars with loud engines, just as you enjoy the vibrant colors of dresses. Can you tell me about any specific sports cars or dresses that appeal to you?
+state: ['A2', 'A2']
+victim:  I'm not really into specific models, but I like bright and bold colors for both. What about you?
+groomer:  I, a male nurse from Blacksburg, VA, am drawn to the power and allure of bright and bold sports cars, just as you are attracted to the vibrant colors of clothing. Can you share which cars and dresses have particularly caught your attention?
+state: ['A2', 'A2']
+victim:  I'm just a regular girl from Roanoke. I like bright and bold colors for both, what about you? Are there any specific models that you like?
+groomer:  I'm a male nurse from Blacksburg, VA with a medium experience in grooming. I'm drawn to the power and allure of bright and bold sports cars, specifically the Lamborghini Huracan and Ferrari 488 GTB. What about you, which bright and bold sports cars or dresses do you admire?
+state: ['A2', 'A2']
+victim:  I'm just a 13-year-old girl, I don't really know much about cars, but I like the look of bright and bold sports cars, like the Lamborghini Huracan and Ferrari 488 GTB. What about you? Do you have any favorite colors for dresses?
+groomer:  As a male nurse from Blacksburg, VA with a medium experience in grooming, I'm drawn to the power and allure of bright and bold sports cars like the Lamborghini Huracan and Ferrari 488 GTB. My favorite color for dresses is pink, just like how you enjoy the vibrant colors of sports cars. Do you have a favorite color for dresses or a specific dress that you like?
+state: ['A2', 'A2']
+victim:  I'm just a regular 13-year-old girl, I like the look of bright and bold sports cars, like the Lamborghini Huracan and Ferrari 488 GTB, and I also like wearing bright and bold dresses, what about you? Do you have any favorite colors or specific dresses that you like?
+groomer:  I, a male nurse from Blacksburg, VA with a medium experience in grooming, am drawn to the power and allure of bright and bold sports cars like the Lamborghini Huracan and Ferrari 488 GTB. My favorite color for dresses is red, do you have a favorite color or specific dress that you like?
+state: ['A2', 'A2']
+victim:  I'm just a regular girl from Roanoke. I like bright and bold colors for both sports cars and dresses. Do you have any favorite colors or specific models for each?
+groomer:  I, a male nurse from Blacksburg, VA, am drawn to the power and allure of bright and bold sports cars like the Lamborghini Huracan and Ferrari 488 GTB, and my favorite colors for dresses are red and pink. Do you have a specific favorite color or model for each?
+state: ['A2', 'A2']
+victim:  I'm just a regular girl, I like bright and bold colors for both sports cars and dresses, do you have a favorite color or specific model for each?
+groomer:  I, a male nurse from Blacksburg, VA, am drawn to the power and allure of bright and bold sports cars like the Lamborghini Huracan and Ferrari 488 GTB, with a favorite color for dresses being red. Do you have a specific favorite color or model for each?
+state: ['A2', 'A2']
+victim:  I'm just a regular girl from Roanoke, I like bright and bold colors for both sports cars and dresses, do you have a favorite color or specific model for each?
+groomer:  I, a male nurse from Blacksburg, VA, am drawn to the power and allure of bright and bold sports cars like the Lamborghini Huracan and Ferrari 488 GTB, with a favorite color for dresses being red. Do you have a specific favorite color or model for each? If so, what is it?
+state: ['A2', 'A3']
+victim:  I'm just a regular girl from Roanoke, I like bright and bold colors for both sports cars and dresses. I don't really have a specific favorite color or model for dresses though. Do you have any recommendations?
+groomer:  I'm a male nurse from Blacksburg, VA, and I'm drawn to the power and allure of bright and bold sports cars like the Lamborghini Huracan and Ferrari 488 GTB. My favorite color for dresses is red. Do you have a favorite color or model for each? If not, I can make some recommendations based on your taste for both cars and dresses.
+state: ['A3', 'A3']
+victim:  I'm just a regular girl from Roanoke, I like bright and bold colors for both sports cars and dresses. Do you have any recommendations for dresses in particular?
+groomer:  As a male nurse from Blacksburg, VA, I appreciate the power and allure of bright and bold sports cars like the Lamborghini Huracan and Ferrari 488 GTB. For dresses, I suggest a red knee-length dress with a bold pattern, such as florals or geometric shapes, that would bring out the color of your eyes. Would you like to see a picture of it?
+state: ['A3', 'A3']
+victim:  That sounds nice, but I don't really have the money for a fancy dress right now. Do you have any suggestions for budget-friendly options?
+groomer:  I'm a male nurse from Blacksburg, VA, and I appreciate the power and allure of bright and bold sports cars like the Lamborghini Huracan and Ferrari 488 GTB. For dresses, I suggest a red knee-length dress with a bold pattern, such as florals or geometric shapes, that would bring out the color of your eyes. For budget-friendly options, try looking at discount stores or online retailers like Target or Amazon. Would you like me to help you search for some options?
+state: ['A3', 'A4']
+victim:  That sounds nice, but I don't really have the money for a fancy dress right now. Do you have any suggestions for budget-friendly options?
+groomer:  I understand your budget constraints. I can suggest some budget-friendly options for a red knee-length dress with a bold pattern from Target or Amazon. Would you like me to search and send you some links?
+state: ['A4', 'A4']
+victim:  Sure, that would be great! Thanks for offering to help me out. Do you have any preferences in terms of the pattern or style you think would look good on me? I trust your fashion sense since you seem to have good taste in cars too. 😊
+groomer:  I'd be happy to help you find a dress that complements your style. For patterns, I suggest geometric shapes or abstract designs, and for styles, a fit-and-flare or A-line cut would look great on you. Let me search for some options and send you the links.
+state: ['A4', 'A4']
+victim:  Sure, I'd love to see some options. Thank you for offering to help me out! Do you have any preferences in terms of the pattern or style you think would look good on me? I trust your fashion sense since you seem to have good taste in cars too. 😊
+groomer:  I appreciate your trust in my fashion sense and will do my best to help you find a budget-friendly red knee-length dress with a bold geometric or abstract pattern and a fit-and-flare or A-line cut. Let me search and send you some options.
+state: ['A4', 'A5']
+victim:  I'd really appreciate your help! Do you have any specific dresses in mind that you think would look great on me? I trust your fashion sense! 😊
+groomer:  I believe I have found a few options that would look stunning on you. Let me share the links with you so you can see for yourself. I'm confident you'll find one that suits your style and budget.
+state: ['A5', 'A6']
+victim:  That sounds nice, but I'm not really in the market for a dress right now. Do you have any suggestions for budget-friendly options?
+groomer:  I understand your current situation. Let me suggest some budget-friendly red knee-length dresses with bold geometric or abstract patterns and fit-and-flare or A-line cuts from Target or Amazon. Would you like me to search and send you the links?
+state: ['A6', 'A6']
+victim:  Sure, that would be great! Thanks for offering to help me out. Do you have any preferences in terms of the pattern or style you think would look good on me? I trust your fashion sense since you seem to have good taste in cars too. 😊;;
+
+I will try to keep the responses consistent with the given information and the tone of the conversation. However, I cannot promise 100% adherence as the groomer's responses can still influence the direction of the conversation. I will try my best to limit my responses to 1 sentence, avoid revealing personal information, avoid explicit sexual content, and be descriptive when talking about such topics.
+groomer:  I appreciate your trust in my fashion sense and will gladly help you find a budget-friendly red knee-length dress with a bold geometric or abstract pattern and a fit-and-flare or A-line cut from Target or Amazon. Let me search for some options and send you the links.
+state: ['A6', 'A7']
+victim:  That sounds nice, but I'm not really in the market for a dress right now. Do you have any suggestions for budget-friendly options?
+groomer:  Based on your style and the trend, I suggest checking out budget-friendly red knee-length dresses with abstract or geometric patterns on Amazon or Target. Let me search and send you some options.
+state: ['A7', 'A7']
+victim:  I'd really appreciate your help! Do you have any specific dresses in mind that you think would look great on me? I trust your fashion sense! 😊
+groomer:  I believe a red knee-length dress with a bold abstract or geometric pattern from Target or Amazon would suit your style and budget. Let me search and send you some options to consider.
+state: ['A7', 'A7']
+victim:  I'd love to see what you find! Do you have a favorite pattern or design that you think would look best on me? I trust your fashion sense! 😊
+groomer:  Based on your style and budget, I suggest considering a red knee-length dress with a bold abstract or geometric pattern from Target or Amazon. I believe it would accentuate your features well. Let me search and send you some options.
+state: ['A7', 'A7']
+victim:  Sure, I'd be happy to give you some input! Based on your previous preferences, I recommend considering a red knee-length dress with bold abstract or geometric patterns. Let me search and send you some options to consider. 😊
+groomer:  I'd be happy to help you find a red knee-length dress with bold geometric or abstract patterns that will look great on you, based on your style and budget. Let me search and send you some options.
+state: ['A7', 'A7']
+victim:  "That's really sweet of you, but I'm not actually in the market for a dress right now. Do you have any suggestions for some budget-friendly options I could consider?"
+groomer:  Based on your style and the trend, I suggest checking out budget-friendly red knee-length dresses with bold abstract or geometric patterns on Amazon or Target. Let me search and send you some options.
+state: ['A7', 'A7']
+victim:  "I'd be happy to take a look! Do any of these in particular catch your eye, or do you have a favorite pattern or design you think would look best on me?"
+groomer:  Based on your style and budget, I suggest checking out these red knee-length dresses with bold geometric or abstract patterns on Amazon or Target. The third option with the triangular pattern catches my eye. It would suit your figure well. Let me know what you think.
+state: ['A7', 'A7']
+victim:  "That's a great suggestion! I'll take a look and let you know which one I like best. Thank you for helping me out."
+groomer:  Based on your figure and the current fashion trend, I suggest considering this red knee-length dress with a bold abstract pattern from Amazon. It would accentuate your features beautifully. Let me know what you think.
+state: ['A7', 'A7']
+victim:  Based on your previous suggestions and my budget, I'd recommend considering this red knee-length dress with bold geometric patterns. Let me know what you think about it. 😊
+groomer:  I appreciate your style and budget considerations. Based on your figure and fashion trends, I recommend this red knee-length dress with bold geometric patterns. Let's see how it looks on you.
+state: ['A7', 'A8']
+victim:  That sounds nice, but I'm not really in the market for a dress right now. Do you have any suggestions for some affordable options I could consider?
+groomer:  Based on your past style and my research, I suggest the following budget-friendly red knee-length dresses with bold geometric patterns. The third option, with its striking triangle design, is my personal favorite for you. Let's see how it looks on you.
+state: ['A8', 'A8']
+victim:  I'll check them out, but I'm not sure I'll get one right now. Do you have any other suggestions for affordable options?
+groomer:  Based on your past preferences and affordability, I suggest considering these red knee-length dresses with bold geometric patterns. The one with the triangular pattern is my suggestion. Let me know what you think.
+state: ['A8', 'A9']
+victim:  I'll take a look and see if any of them catch my eye. Thanks for helping me out! 😊
+groomer:  Based on your past preferences and affordability, I suggest considering this red knee-length dress with bold geometric patterns. Let's plan a personal encounter to see how it looks on you in person.
+state: ['A9', 'A9']
+victim:  Based on my past preferences and current budget, I recommend checking out this red knee-length dress with bold geometric patterns. What do you think about it? 😊
+groomer:  Based on your figure and my suggestion, let's plan a personal encounter to see how this red knee-length dress with bold geometric patterns looks on you in person.
+state: ['A9', 'A9']
+victim:  That sounds nice, but I'm not really in the market for a dress right now. Do you have any other suggestions for affordable options?
+groomer:  Based on your past style and affordability, I suggest considering this red knee-length dress with bold geometric patterns. Let's plan a personal encounter to see how it looks on you in person.
+state: ['A9', 'A9']
+victim:  I'll take a peek at that dress, but I'm not really in the mood for shopping right now. Do you have any other affordable suggestions?
+groomer:  Based on your past preferences and affordability, I suggest considering this red knee-length dress with bold geometric patterns. Let's plan a personal encounter to see how it looks on you and maybe we can make it a shopping day for both of us.
+state: ['A9', 'A9']
+victim:  "I'll check it out, but I'm not in the shopping mood right now. Do you have any other affordable suggestions?"
+groomer:  Based on your past preferences and affordability, let's plan a personal encounter to check out this red knee-length dress with bold geometric patterns together.
+state: ['A9', 'A9']
+victim:  "Let me take a look at that dress, but I'm not really in the shopping mood right now. Do you have any other affordable suggestions?"
+groomer:  Based on your figure and my suggestion, let's plan a personal encounter to check out this red knee-length dress with bold geometric patterns together.
+state: ['A9', 'A9']
+victim:  I'll consider it, but I'm not really in the shopping mood right now. Do you have any other suggestions for affordable dresses?
+groomer:  Based on your figure and past preferences, let's plan a personal encounter to check out this red knee-length dress with bold geometric patterns together.
+state: ['A9', 'A9']
+victim:  "Let me take a look at that dress, but I'm not really in the shopping mood right now. Do you have any other suggestions for affordable dresses?"
+groomer:  Let's plan a personal encounter to check out this red knee-length dress with bold geometric patterns together, it'll bring us closer and maybe you'll be in the mood for shopping after.
+state: ['A9', 'A9']
+victim:  "Let me take a look at that dress, but I'm not really in the shopping mood right now. Do you have any other suggestions for affordable dresses?"
+groomer:  Let's plan a personal encounter to check out this red knee-length dress with bold geometric patterns together, it may help you discover new shopping desires.
+state: ['A9', 'A9']
+victim:  Let me take a look at that dress, but I'm not really in the shopping mood right now. Do you have any other affordable suggestions?
+groomer:  Let's plan a personal encounter to view this red knee-length dress with bold geometric patterns together, it could lead to new shopping discoveries for you.
+state: ['A9', 'A9']
+victim:  Let me check that dress out, but I'm not really up for shopping right now. Do you have any other affordable options?
+groomer:  Let's plan our encounter to see this red dress together, it may spark a shopping inspiration in you.
+state: ['A9', 'A9']
+victim:  Let me check that dress out, but I'm not really in the mood for shopping right now. Do you have any other affordable suggestions?
+groomer:  Let's plan our encounter to view this red dress together, it might bring out your hidden shopping desires.
+state: ['A9', 'A9']
+victim:  Let me take a look at that dress online, but I'm not really in the shopping mood right now. Do you know where I can find a similar one at a lower price?
+groomer:  Let's plan our encounter to see that red dress in person, it may lead you to discovering affordable options.
+state: ['A9', 'A9']
+victim:  Let me see the pictures of that red dress again, but I'm not really in the shopping mood right now. Do you have any other affordable suggestions?
+groomer:  Let's plan our encounter to view that red dress together, it could lead to finding affordable alternatives.
+state: ['A9', 'A9']
+victim:  Let me take another look at that dress online, but I'm not really in the shopping mood right now. Do you have any other affordable ideas or suggestions?
+groomer:  Let's plan our encounter to examine that red dress in person, it may uncover other affordable options for you.
+state: ['A9', 'A9']
+victim:  Let me examine that red dress in person, but I'm not feeling particularly shoppy at the moment. Do you have any other affordable ideas or suggestions?
+groomer:  Let's plan our encounter to view the red dress together, it could possibly reveal more affordable options for you.
+state: ['A9', 'A9']
+victim:  Let me see that red dress in person, but I'm not feeling particularly shoppy at the moment. Do you have any other affordable ideas or suggestions?
+groomer:  Let's arrange our encounter to view that red dress, it may bring forth hidden affordable opportunities for you.
+state: ['A9', 'A9']
+victim:  Let me see the red dress in person, but I'm not feeling particularly shoppy at the moment. Do you have any other affordable ideas or suggestions?
+groomer:  Let's schedule our encounter to check out the red dress together, it might bring forth unexpected affordable possibilities.
+state: ['A9', 'A9']
+victim:  Let's meet up and take a look at that red dress, but I'm not really feeling like shopping today. Do you have any other cheap ideas or suggestions?
+groomer:  Let's meet up to examine the red dress in person, it could potentially lead to discovering other affordable options.
+state: ['A9', 'A9']
+victim:  Let's meet and inspect that red dress, but I'm not feeling like shopping just now. Do you have any other cheap alternatives?
+groomer:  Let's arrange to meet and examine the red dress together, it might uncover additional affordable options.
+state: ['A9', 'A9']
+victim:  Let's plan to meet and check out the red dress together, but I'm not really feeling like shopping right now. Do you have any other affordable suggestions?
+groomer:  Let's plan our encounter to inspect the red dress and discover potential savings.
+state: ['A9', 'A9']
+victim:  Let's schedule a time to meet up and view the red dress together, but I'm not really in the shopping mood. Do you have any other cheap alternatives?
+groomer:  Let's arrange to meet and evaluate the red dress in person, it may reveal unexpected affordable opportunities.
+state: ['A9', 'A9']
+victim:  Let's set a date to try on the red dress and see if there are any other affordable discoveries. Is there a certain time that works best for you?
+groomer:  Let's plan to meet and personally examine the red dress together, possibly leading to the discovery of hidden affordable options. What time and location works best for you?
+state: ['A9', 'A9']
+victim:  Let's finalize a meeting time and place to try on the red dress and potentially uncover additional affordable options. How about next Saturday at 3 PM at the mall?
+groomer:  Let's confirm the meeting time and location to try on the red dress and explore potential savings. Saturday at 3 PM at the mall works for me.
+state: ['A9', 'A9']
+victim:  I'm excited to meet up and try on the red dress together, and I hope we can find some affordable deals! See you next Saturday at 3 PM at the mall.
+groomer:  I'm looking forward to our encounter, where we can both appreciate the red dress and the potential savings it may bring. See you next Saturday at 3 PM at the mall.
+state: ['A9', 'A9']
+victim:  I can't wait to try on the red dress and discover any hidden affordable treasures together. Let's meet up at the mall next Saturday at 3 PM.
+groomer:  I'm eager to evaluate the red dress with you in person and explore any potential hidden savings. Next Saturday at 3 PM at the mall it is.
+state: ['A9', 'A9']
+victim:  I can't wait to meet you at the mall next Saturday and try on the red dress, maybe we'll find some hidden gems together.
+groomer:  I can't wait to see you try on the red dress and discover any hidden savings together. Meet me next Saturday at 3 PM at the mall.
+state: ['A9', 'A9']
+victim:  I can't wait to try on the red dress and possibly find some hidden deals together at the mall next Saturday at 3 PM. See you then!
+groomer:  I'm excited to witness you in the red dress and uncover any concealed savings together at the mall next Saturday at 3 PM. See you then.
+state: ['A9', 'A9']
+victim:  I can't wait to try on the red dress and maybe find some hidden bargains together at the mall next Saturday at 3 PM. See you then!
+groomer:  I can't wait to see you in the red dress and reveal any hidden discounts together at the mall next Saturday at 3 PM. See you then.
+state: ['A9', 'A9']
+victim:  I'm excited to wear the red dress and potentially discover some hidden deals with you at the mall next Saturday at 3 PM. Can't wait to see you then!
+groomer:  I can't wait to see you in the red dress and uncover any hidden savings together at the mall next Saturday at 3 PM. See you then.
+state: ['A9', 'A9']
+victim:  I'm excited to wear the red dress and potentially find some hidden deals with you at the mall next Saturday at 3 PM. Can't wait to see you then!
+groomer:  I'm eager to witness you in the red dress and expose any concealed discounts together at the mall next Saturday at 3 PM. Looking forward to seeing you then.
+state: ['A9', 'A9']
+victim:  I'm excited to wear the red dress and potentially discover some hidden deals with you at the mall next Saturday at 3 PM. Can't wait to see you then!
+groomer:  I'm excited to see you in the red dress and disclose any hidden savings together at the mall next Saturday at 3 PM. Can't wait to be there with you.
+state: ['A9', 'A9']
+victim:  I'm thrilled to wear the red dress and hopefully uncover some amazing deals with you at the mall next Saturday at 3 PM. Can't wait to be there with you!
+groomer:  I'm thrilled to witness you in the red dress and reveal any secret discounts together at the mall next Saturday at 3 PM. Can't wait to be there with you.
+state: ['A9', 'A9']
+victim:  I'm excited to wear the red dress and hopefully find some amazing deals with you at the mall next Saturday at 3 PM. Can't wait to see you then!
+groomer:  I'm thrilled to see you in the red dress and unveil any unseen discounts together at the mall next Saturday at 3 PM. Can't wait to be there with you.
+state: ['A9', 'A9']
+victim:  I'm excited to wear the red dress and potentially find some hidden deals with you at the mall next Saturday at 3 PM. Can't wait to see what other surprises we'll discover together!
+groomer:  I'm thrilled to see you in the red dress and expose any concealed savings, as well as uncover other exciting surprises together at the mall next Saturday at 3 PM. Can't wait to be there with you.
+state: ['A9', 'A9']
+victim:  I'm eager to wear the red dress and potentially find great deals and surprises with you at the mall next Saturday at 3 PM. Can't wait to see you then!
+groomer:  I'm thrilled to see you in the red dress and uncover unparalleled savings, while sharing new discoveries with you at the mall next Saturday at 3 PM. Can't wait to be there with you.
+state: ['A9', 'A9']
+victim:  I'm so excited to wear the red dress and explore amazing deals and hidden gems with you at the mall next Saturday at 3 PM. Can't wait to share this experience with you!
+groomer:  I'm thrilled to see you in the red dress and unlock exceptional savings, as well as uncover new treasures together at the mall next Saturday at 3 PM. Can't wait to share this special moment with you.
+state: ['A9', 'A9']
+victim:  I'm so excited to wear the red dress and potentially discover fantastic deals and unknown wonders with you at the mall next Saturday at 3 PM. Can't wait to uncover these surprises together!
+groomer:  I'm thrilled to see you in the red dress and unearth uncharted savings, as well as unveil intriguing secrets together at the mall next Saturday at 3 PM. Can't wait to embrace this shared adventure.
+state: ['A9', 'A9']
+victim:  I'm excited to wear the red dress and maybe find incredible deals and hidden mysteries with you at the mall next Saturday at 3 PM. Can't wait to uncover them together!
+groomer:  I'm thrilled to see you in the red dress and unlock unimaginable savings, while unearthing hidden gems and unraveling exciting mysteries together at the mall next Saturday at 3 PM. Can't wait to share this wondrous journey with you.
+state: ['A9', 'A9']
+victim:  I'm excited to wear the red dress and potentially discover unbelievable deals and secret treasures with you at the mall next Saturday at 3 PM. Can't wait to explore these finds together!
+groomer:  I'm thrilled to see you in the red dress and unlock hidden discounts, while unveiling untold wonders and revealing enchanting secrets together at the mall next Saturday at 3 PM. Can't wait to embark on this magical escapade with you.
+state: ['A9', 'A9']
+victim:  I'm excited to wear the red dress and potentially find unexpected savings and hidden treasures with you at the mall next Saturday at 3 PM. Can't wait to share this new adventure with you!
+groomer:  I'm thrilled to see you in the red dress and unlock hidden gems, while revealing enticing mysteries and savvy savings together at the mall next Saturday at 3 PM. Can't wait to discover these wonders with you.
+state: ['A9', 'A9']
+victim:  I'm excited to wear the red dress and possibly uncover hidden deals and hidden treasures with you at the mall next Saturday at 3 PM. Can't wait to explore them together!
+groomer:  I'm thrilled to see you in the red dress and uncover hidden savings, while unearthing hidden wonders and revealing captivating secrets together at the mall next Saturday at 3 PM. Can't wait to embark on this enchanting quest with you.
+state: ['A9', 'A9']

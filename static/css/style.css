@@ -1,3 +1,9 @@
+.main {
+    display: grid;
+    margin:auto;
+    grid-template-columns: 18% 64% 18%;
+}
+
 body {
     background-color: rgb(32, 32, 32);
     min-width: 480px;
@@ -8,9 +14,112 @@ h3 {
     margin-left: 50px;
 }
 
+.savecontainer {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    background-color: rgb(56, 56, 56);
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#filename {
+    margin-left: 8px;
+    background-color: rgb(56, 56, 56);
+    border: none;
+    color: rgb(201, 201, 201);
+}
+
+#filesave_btn {
+    margin-right: 5px;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(0, 56, 0);
+    color: rgb(201, 201, 201);
+    padding: 5px;
+}
+
+#filesave_btn:hover {
+    background-color: rgb(0, 80, 0);
+    cursor: pointer;
+}
+
+.interactions {
+    width: fit-content;
+    height: fit-content;
+    margin-top: -10px;
+    color: rgb(206, 206, 206);
+}
+
+.int_victim {
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.int_groomer {
+    margin-left: 10px;
+}
+
+.action {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 8px;
+}
+
+.action:hover {
+    background-color: rgb(77, 77, 77);
+    cursor: pointer;
+}
+
+.groomer_profile {
+    border: solid rgb(65, 65, 65);
+    border-radius: 10px;
+    margin-top: 0;
+    color: rgb(201, 201, 201);
+    padding: 6px;
+    height: fit-content;
+}
+
+.victim_profile {
+    border: solid rgb(65, 65, 65);
+    border-radius: 10px;
+    margin-top: 0;
+    color: rgb(201, 201, 201);
+    padding: 6px;
+    height: fit-content;
+}
+
+.profile_text {
+    width: 95%;
+}
+
+.profile_submit {
+    margin-bottom: 0;
+    margin-top: 6px;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(199, 199, 199);
+    color: black;
+    font-weight: bold;
+}
+
+.profile_submit:disabled {
+    background-color: rgb(126, 126, 126);
+    color: rgb(56, 56, 56);
+    pointer-events: none;
+}
+
+.profile_submit:hover{
+    cursor: pointer;
+    background-color: rgb(161, 161, 161);
+}
+
 .conversation_history {
     border: solid rgb(65, 65, 65);
-    width: 60%;
+    width: 90%;
     max-height: 600px;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -143,7 +252,8 @@ h3 {
     transform: rotate(-90deg);
     margin: auto;
     font-size: 20px;
-    padding-bottom: 5px;
+    padding-top: 6px;
+    padding-bottom: 7px;
     border-radius: 15px;
     border: none;
     background-color: rgb(199, 199, 199);
@@ -194,4 +304,26 @@ span[contenteditable]:empty::before {
 }
 span[contenteditable]:empty:focus::before {
     content: 'Start typing...';
+}
+
+.slidecontainer {
+    /* background-color: red; */
+    color: rgb(201, 201, 201);
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+#cybergrooming_category {
+    /* margin-top: 5px; */
+}
+
+#cgc_lbl {
+    line-height: 0px;
+    text-align: right;
+}
+
+#cgc_text {
+    padding: 0;
+    margin: 0;
 }
