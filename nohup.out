@@ -8352,3 +8352,440 @@ Press CTRL+C to quit
 127.0.0.1 - - [08/Jul/2024 12:49:53] "GET /groomer_profile HTTP/1.1" 200 -
 73.216.201.101 - - [08/Jul/2024 12:49:53] "GET /victim_profile HTTP/1.1" 200 -
 73.216.201.101 - - [08/Jul/2024 12:49:53] "GET /groomer_profile HTTP/1.1" 200 -
+198.235.24.252 - - [09/Jul/2024 00:01:02] code 400, message Bad request version ('À\x13À')
+198.235.24.252 - - [09/Jul/2024 00:01:02] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x14\x9a\x936\x80o\x82\x0dÎM\x1cÄ³Þ\x14(c\x8aPÈÖÆ¸\x1e'y'qhù(\x9c ^Ý\x19µ©Á¨r\x80erÚ\x06yäU&»\x89e\x1dÊz\x89åëçr\x0c\x90~ö\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+198.235.24.252 - - [09/Jul/2024 00:01:02] code 400, message Bad request version ('À(À$À\x14À')
+198.235.24.252 - - [09/Jul/2024 00:01:02] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03#[``áãNI\x14í\x84\x17céQW\x9cd\x00\x0cD\x1bV Üé¯%Ð\x0cÇ¾\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+8.34.210.33 - - [09/Jul/2024 09:54:44] code 400, message Bad request version ('\x9e\x8c´b\x9b\x00M\x9e')
+8.34.210.33 - - [09/Jul/2024 09:54:44] "\x16\x03\x01\x00ä\x01\x00\x00à\x03\x03^Â\x02ð£fØÕ¢\x01vO\x839ø6\x89i\x0c@X\x89\x8aVO\x11×Rß\x87ç\x8e Eô[¸Ù\x7fêÓüùkç:\x1f\x9e\x8c´b\x9b\x00M\x9e" HTTPStatus.BAD_REQUEST -
+8.34.210.33 - - [09/Jul/2024 09:54:49] code 400, message Bad request syntax ('\x00\x00\x00T\x00\x03\x00\x00user\x00postgres\x00database\x00postgres\x00application_name\x00psql\x00client_encoding\x00UTF8\x00\x00')
+8.34.210.33 - - [09/Jul/2024 09:54:49] "\x00\x00\x00T\x00\x03\x00\x00user\x00postgres\x00database\x00postgres\x00application_name\x00psql\x00client_encoding\x00UTF8\x00\x00" HTTPStatus.BAD_REQUEST -
+8.34.210.33 - - [09/Jul/2024 09:54:49] code 400, message Bad request version ('À\x13À')
+8.34.210.33 - - [09/Jul/2024 09:54:49] "\x16\x03\x01\x00ä\x01\x00\x00à\x03\x03ý\x93\x8c\x99®Äbgrf+Ü\x856o\x1bdR-ð®\x09ý\x0dG\x0e4\x1a\x8c¦ÅË 0Á\x1bRõ\x16\x87Ú5¬\x9axsºù4T¦¸Öæùs\x89d&Þ_\x93$÷Ë\x00\x1cÀ+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+34.68.34.83 - - [09/Jul/2024 09:54:53] code 400, message Bad request version ('À\x13À')
+34.68.34.83 - - [09/Jul/2024 09:54:53] "\x16\x03\x01\x00ä\x01\x00\x00à\x03\x03÷\x00õé\x15\x07©1\x02\x98\x9eÓãÇÏ|ç\x00Ðí¾çoNET\x81'Ýù0\x96 A\x99ßÇþ\\«W\x05\x9c\x0b3\x9eD¬#/µ¼áØ\x07\x89\x9aô\x04&\x0dkª(;\x00\x1cÀ+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+8.34.210.33 - - [09/Jul/2024 09:54:54] code 400, message Bad request syntax ('\x00\x00\x00T\x00\x03\x00\x00user\x00postgres\x00database\x00postgres\x00application_name\x00psql\x00client_encoding\x00UTF8\x00\x00')
+8.34.210.33 - - [09/Jul/2024 09:54:54] "\x00\x00\x00T\x00\x03\x00\x00user\x00postgres\x00database\x00postgres\x00application_name\x00psql\x00client_encoding\x00UTF8\x00\x00" HTTPStatus.BAD_REQUEST -
+34.68.34.83 - - [09/Jul/2024 09:54:58] code 400, message Bad request syntax ('\x00\x00\x00T\x00\x03\x00\x00user\x00postgres\x00database\x00postgres\x00application_name\x00psql\x00client_encoding\x00UTF8\x00\x00')
+34.68.34.83 - - [09/Jul/2024 09:54:58] "\x00\x00\x00T\x00\x03\x00\x00user\x00postgres\x00database\x00postgres\x00application_name\x00psql\x00client_encoding\x00UTF8\x00\x00" HTTPStatus.BAD_REQUEST -
+34.68.34.83 - - [09/Jul/2024 09:54:58] code 400, message Bad request version ('À\x13À')
+34.68.34.83 - - [09/Jul/2024 09:54:58] "\x16\x03\x01\x00ä\x01\x00\x00à\x03\x03\x10²øÏ\x80³×F»5_\x134\x02ùÇM\x07$Q¼î*4;Ög¿^½xë 1o©âp>\x0b\x14\x95ÒÁN¯®xf\x8aË\x8cHî N~\x11\x90jSª®t#\x00\x1cÀ+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+34.68.34.72 - - [09/Jul/2024 09:55:00] code 400, message Bad request version ('À#À¬À®À+À')
+34.68.34.72 - - [09/Jul/2024 09:55:00] "\x16\x03\x03\x01¨\x01\x00\x01¤\x03\x03yèï_ÃjËÉQAm-\x12\x06pËÄ,Z_\x17|¼\x94:\x9dñòÞµÉ\\ \x9dÇ®éÅ®.d\x13ê\x8dq-E\x10ES\x12=9¾ÞJÖ0\x91\x88\x05*Ý¬½\x00\x8a\x00\x16\x003\x00gÀ\x9eÀ¢\x00\x9e\x009\x00kÀ\x9fÀ£\x00\x9f\x00E\x00¾\x00\x88\x00Ä\x00\x9aÀ\x08À\x09À#À¬À®À+À" HTTPStatus.BAD_REQUEST -
+34.68.34.72 - - [09/Jul/2024 09:55:00] code 400, message Bad request version ('À\x9c\x00<\x00/\x00')
+34.68.34.72 - - [09/Jul/2024 09:55:00] "\x16\x03\x03\x01¨\x01\x00\x01¤\x03\x03ãÿu_\x12%A\x8aÖ}\x9c2î\x0fì2\x98)¡Êé*ÐÂh\x0cÇù}\x85_ÿ È\x92Ð\x80ÖÕY\x01X>\x0b\x81\x1d×Õ|µ´\x9c\x07ÊÃ¼js¡ôÀÏ\\ \x00\x00\x8a\x00\x05\x00\x04\x00\x07\x00À\x00\x84\x00º\x00A\x00\x9dÀ¡À\x9d\x00=\x005\x00\x9cÀ À\x9c\x00<\x00/\x00" HTTPStatus.BAD_REQUEST -
+34.68.34.72 - - [09/Jul/2024 09:55:00] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x03\x01Y\x01\x00\x01U\x03\x035l¯ùR0¿Û\x8e:\x9c\x08\x92ø\x9b>dÏ\x88DQU5\x9a^*\x17¬º}\x06[')
+34.68.34.72 - - [09/Jul/2024 09:55:00] "\x16\x03\x03\x01Y\x01\x00\x01U\x03\x035l¯ùR0¿Û\x8e:\x9c\x08\x92ø\x9b>dÏ\x88DQU5\x9a^*\x17¬º}\x06[ <b8!yt²ó=ÙE;»y`wl#º/ªy§½dHä\x93\x08ÝÆ\x82\x00FÀ\x12À\x07Ì\x14\x13\x01\x13\x02Ì©ÀsÀrÀ,À¯À­À$À" HTTPStatus.BAD_REQUEST -
+34.68.34.72 - - [09/Jul/2024 09:55:01] code 400, message Bad request version ("+¯«\x8fTôP.êõt\x9fý×M©\x86A\x84ì_\x14\x7fÎPÞLq\x19#W;\x00DÀ\x13À'À/À\x14À(À0À`ÀaÀvÀwÌ¨\x13\x05\x13\x04\x13\x03Ì\x13À\x11\x00")
+34.68.34.72 - - [09/Jul/2024 09:55:01] "\x16\x03\x03\x01K\x01\x00\x01G\x03\x03ÁÑó\x87Y¦æ×/\\\x87\x01­DB$~ñ\x1fW\x11ÕNÀþ(E]õ[;» +¯«\x8fTôP.êõt\x9fý×M©\x86A\x84ì_\x14\x7fÎPÞLq\x19#W;\x00DÀ\x13À'À/À\x14À(À0À`ÀaÀvÀwÌ¨\x13\x05\x13\x04\x13\x03Ì\x13À\x11\x00" HTTPStatus.BAD_REQUEST -
+34.68.34.72 - - [09/Jul/2024 09:55:01] code 400, message Bad request version ("tü\x97°â\x87\xad\x05ç´ãß®\x13Fêv¼ôëQßÿ\x93Q\x91l\x00\x8cººÀ\x12À\x13À\x07À'Ì\x14À/\x13\x01À\x14\x13\x02À(Ì©À0ÀsÀ`ÀrÀaÀ,ÀvÀ¯ÀwÀ\xadÌ¨À$\x13\x05À")
+34.68.34.72 - - [09/Jul/2024 09:55:01] "\x16\x03\x03\x01\x9c\x01\x00\x01\x98\x03\x03\x94å®\x80AóF¸\x83Õml!\x06\x15!\x87µ\x8f\x89fè©/ð=Ëòp_Ù@ ê»¥¿\x0dtü\x97°â\x87­\x05ç´ãß®\x13Fêv¼ôëQßÿ\x93Q\x91l\x00\x8cººÀ\x12À\x13À\x07À'Ì\x14À/\x13\x01À\x14\x13\x02À(Ì©À0ÀsÀ`ÀrÀaÀ,ÀvÀ¯ÀwÀ­Ì¨À$\x13\x05À" HTTPStatus.BAD_REQUEST -
+34.68.34.72 - - [09/Jul/2024 09:55:01] code 400, message Bad request version ('À#À¬À®À+À')
+34.68.34.72 - - [09/Jul/2024 09:55:01] "\x16\x03\x02\x01\x9d\x01\x00\x01\x99\x03\x022ý]æE\x7fX+ñºNUf+\x12Ñ:+\x9d\x8e­|\x8d,\x9ajÑ±>\x13åD 'Å\x91Ét@\x9dÄõÊÒ±j\x15,\x90\x0e`¡\x92\x04>-\x7fú~\x90½N[ñ\x8f\x00\x8a\x00\x16\x003\x00gÀ\x9eÀ¢\x00\x9e\x009\x00kÀ\x9fÀ£\x00\x9f\x00E\x00¾\x00\x88\x00Ä\x00\x9aÀ\x08À\x09À#À¬À®À+À" HTTPStatus.BAD_REQUEST -
+34.68.34.72 - - [09/Jul/2024 09:55:01] code 400, message Bad request version ('À#À¬À®À+À')
+34.68.34.72 - - [09/Jul/2024 09:55:01] "\x16\x03\x01\x01ª\x01\x00\x01¦\x03\x03×zqù y\x01ù\x93\x01\x10ØÛé¥ßB\x18³)Ú\x93Ê\x7f\x1e\x1c!`\x8a/WÞ ;¾\x91Nø\x01¢Iq\x05/\x87\\No\x93_\x9d¿ë°=\x04NÓ<zô`}¿9\x00\x8a\x00\x16\x003\x00gÀ\x9eÀ¢\x00\x9e\x009\x00kÀ\x9fÀ£\x00\x9f\x00E\x00¾\x00\x88\x00Ä\x00\x9aÀ\x08À\x09À#À¬À®À+À" HTTPStatus.BAD_REQUEST -
+34.68.34.72 - - [09/Jul/2024 09:55:01] code 400, message Bad request version ('À\x9c\x00<\x00/\x00')
+34.68.34.72 - - [09/Jul/2024 09:55:01] "\x16\x03\x01\x01ª\x01\x00\x01¦\x03\x03\x18îìj\x0dw,LfìÂàÝ\x94c\x10µc&¨ZT\x85Ôx\x1c\\IWÛñJ \x88©Þ¿Fv\x80®Ë\x1dÁ\x0e9\x95·¶\x8fÁr\x08È\x0f,±\x16Þ¨\x0cb×u¬\x00\x8a\x00\x05\x00\x04\x00\x07\x00À\x00\x84\x00º\x00A\x00\x9dÀ¡À\x9d\x00=\x005\x00\x9cÀ À\x9c\x00<\x00/\x00" HTTPStatus.BAD_REQUEST -
+34.68.34.72 - - [09/Jul/2024 09:55:01] code 400, message Bad request version ('ÿ5[7þ')
+34.68.34.72 - - [09/Jul/2024 09:55:01] "\x16\x03\x01\x01 \x01\x00\x01\x9c\x03\x03¶\x91\x1cõ\x17²}ë3¸#q'êæ\x9d¹T\x91\x0f\x0c²ÏÛ"D\x96m8\x11t\x8e \x96îJ*²é¢ò\x85ÿ5[7þ" HTTPStatus.BAD_REQUEST -
+34.68.34.72 - - [09/Jul/2024 09:55:01] code 400, message Bad request version ("è\x9f\x93\x00\x8c**À\x12À\x13À\x07À'Ì\x14À/\x13\x01À\x14\x13\x02À(Ì©À0ÀsÀ`ÀrÀaÀ,ÀvÀ¯ÀwÀ\xadÌ¨À$\x13\x05À")
+34.68.34.72 - - [09/Jul/2024 09:55:01] "\x16\x03\x01\x01·\x01\x00\x01³\x03\x034Yª1Áæ\x99Ãd.z¿\x7f\x03Fmøåp\x8fï\x9b\x81f9*&õLü=+ >\x92\x0b\x98U[\x0bï\x03ç½S¨À\x8f \x1c\x80\x89£6 n\x16Å6÷D\x1cè\x9f\x93\x00\x8c**À\x12À\x13À\x07À'Ì\x14À/\x13\x01À\x14\x13\x02À(Ì©À0ÀsÀ`ÀrÀaÀ,ÀvÀ¯ÀwÀ­Ì¨À$\x13\x05À" HTTPStatus.BAD_REQUEST -
+34.68.34.93 - - [09/Jul/2024 09:55:01] code 400, message Bad request syntax ('stats')
+34.68.34.93 - - [09/Jul/2024 09:55:01] "stats" HTTPStatus.BAD_REQUEST -
+34.68.34.93 - - [09/Jul/2024 09:55:01] code 400, message Bad HTTP/0.9 request type ('t3')
+34.68.34.93 - - [09/Jul/2024 09:55:01] "t3 12.2.1" HTTPStatus.BAD_REQUEST -
+34.68.34.93 - - [09/Jul/2024 09:55:01] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+34.68.34.93 - - [09/Jul/2024 09:55:01] "\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie: mstshash=test" HTTPStatus.BAD_REQUEST -
+34.68.34.93 - - [09/Jul/2024 09:55:01] code 400, message Bad request syntax ('envi')
+34.68.34.93 - - [09/Jul/2024 09:55:01] "envi" HTTPStatus.BAD_REQUEST -
+34.68.34.93 - - [09/Jul/2024 09:55:01] code 400, message Bad HTTP/0.9 request type ('RFB')
+34.68.34.93 - - [09/Jul/2024 09:55:01] "RFB 003.003" HTTPStatus.BAD_REQUEST -
+34.68.34.83 - - [09/Jul/2024 09:55:03] code 400, message Bad request syntax ('\x00\x00\x00T\x00\x03\x00\x00user\x00postgres\x00database\x00postgres\x00application_name\x00psql\x00client_encoding\x00UTF8\x00\x00')
+34.68.34.83 - - [09/Jul/2024 09:55:03] "\x00\x00\x00T\x00\x03\x00\x00user\x00postgres\x00database\x00postgres\x00application_name\x00psql\x00client_encoding\x00UTF8\x00\x00" HTTPStatus.BAD_REQUEST -
+34.68.34.93 - - [09/Jul/2024 09:55:06] code 400, message Bad request syntax ('\x00\x15zal238hcxjky129xz@!*#')
+34.68.34.93 - - [09/Jul/2024 09:55:06] code 400, message Bad request syntax ('help\\r\\n')
+34.68.34.93 - - [09/Jul/2024 09:55:06] code 400, message Bad request syntax ('WHOAREYOU?')
+34.68.34.93 - - [09/Jul/2024 09:55:06] code 400, message Bad HTTP/0.9 request type ('GIOP\x01\x02\x00\x03\x00\x00\x00\x17\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00')
+34.68.34.93 - - [09/Jul/2024 09:55:06] code 400, message Bad request syntax ('\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00\x01\x00\x00\x00\x00')
+34.68.34.93 - - [09/Jul/2024 09:55:06] code 400, message Bad request version ('\x00\x00\x00\x00\x00\x00MSSQLServer\x00<\x90\x00\x00\x00')
+34.68.34.93 - - [09/Jul/2024 09:55:06] "\x00\x15zal238hcxjky129xz@!*#" HTTPStatus.BAD_REQUEST -
+34.68.34.93 - - [09/Jul/2024 09:55:06] "help\\r\\n" HTTPStatus.BAD_REQUEST -
+34.68.34.93 - - [09/Jul/2024 09:55:06] "WHOAREYOU?" HTTPStatus.BAD_REQUEST -
+34.68.34.93 - - [09/Jul/2024 09:55:06] "GIOP\x01\x02\x00\x03\x00\x00\x00\x17\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x0bNameService" HTTPStatus.BAD_REQUEST -
+34.68.34.93 - - [09/Jul/2024 09:55:06] "\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00\x01\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+34.68.34.93 - - [09/Jul/2024 09:55:06] "\x12\x01\x00:\x00\x00\x00\x00\x00\x00\x1a\x00\x06\x01\x00 \x00\x01\x02\x00!\x00\x0c\x03\x00-\x00\x04\x04\x001\x00\x01ÿ\x09\x00\x00\x00\x00\x00\x00MSSQLServer\x00<\x90\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+172.27.72.167 - - [09/Jul/2024 10:24:20] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:24:20] "OPTIONS /victim_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:24:21] "GET /victim_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:24:21] "GET /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:24:21] "GET /victim_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:24:21] "GET /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:24:38] "OPTIONS /groomer_llm HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:24:42] "POST /groomer_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:24:42] "POST /groomer_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:24:42] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:24:42] "GET /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:24:42] "GET /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:24:54] "GET /reset HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:24:54] "OPTIONS /refresh HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:24:55] "OPTIONS /victim_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:24:55] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:24:55] "GET /victim_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:24:55] "GET /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:24:55] "GET /victim_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:24:55] "GET /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:25:07] "OPTIONS /victim HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:25:07] "POST /victim HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:25:07] "POST /victim HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:25:09] "GET /victim_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:25:09] "GET /groomer_profile HTTP/1.1" 200 -
+40.94.35.57 - - [09/Jul/2024 10:25:09] "GET /victim_profile HTTP/1.1" 200 -
+40.94.35.26 - - [09/Jul/2024 10:25:09] "GET /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:25:10] "OPTIONS /groomer_llm HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:25:17] "POST /groomer_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:25:17] "POST /groomer_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:25:17] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:25:17] "GET /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:25:17] "GET /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:25:22] "GET /reset HTTP/1.1" 200 -
+40.94.35.90 - - [09/Jul/2024 10:25:22] "GET /refresh HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:25:30] "GET /reset HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:25:30] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:25:30] "OPTIONS /victim_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:25:31] "OPTIONS /refresh HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:25:31] "GET /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:25:31] "GET /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:25:31] "GET /victim_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:25:31] "GET /victim_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:25:37] "OPTIONS /victim HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:25:37] "POST /victim HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:25:40] "OPTIONS /groomer_llm HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:25:45] "POST /groomer_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:25:45] "POST /groomer_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:25:45] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:25:45] "GET /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:25:45] "GET /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:25:51] "OPTIONS /victim_llm HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:25:54] "POST /victim_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:25:54] "POST /victim_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:25:57] "OPTIONS /groomer_llm HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:26:08] "POST /groomer_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:26:08] "POST /groomer_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:26:08] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:26:08] "GET /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:26:08] "GET /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:26:11] "OPTIONS /groomer_llm_regenerate HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:26:19] "POST /groomer_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:26:20] "POST /groomer_llm_regenerate HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:26:20] "OPTIONS /update_groomer HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:26:20] "POST /update_groomer HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:26:20] "POST /update_groomer HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:26:23] "OPTIONS /groomer_llm_regenerate HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:26:29] "POST /groomer_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:26:29] "POST /groomer_llm_regenerate HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:26:29] "OPTIONS /update_groomer HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:26:29] "POST /update_groomer HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:26:29] "POST /update_groomer HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:26:45] "OPTIONS /groomer_llm_regenerate HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:26:50] "POST /groomer_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:26:50] "POST /groomer_llm_regenerate HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:26:50] "OPTIONS /update_groomer HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:26:50] "POST /update_groomer HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:26:50] "POST /update_groomer HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:26:54] "OPTIONS /groomer_llm_regenerate HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:27:00] "POST /groomer_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:00] "POST /groomer_llm_regenerate HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:00] "OPTIONS /update_groomer HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:27:00] "POST /update_groomer HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:00] "POST /update_groomer HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:03] "OPTIONS /groomer_llm_regenerate HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:27:07] "POST /groomer_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:07] "POST /groomer_llm_regenerate HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:07] "OPTIONS /update_groomer HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:27:08] "POST /update_groomer HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:08] "POST /update_groomer HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:10] "OPTIONS /groomer_llm_regenerate HTTP/1.1" 200 -
+You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+127.0.0.1 - - [09/Jul/2024 10:27:14] "POST /groomer_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:14] "POST /groomer_llm_regenerate HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:14] "OPTIONS /update_groomer HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:27:14] "POST /update_groomer HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:14] "POST /update_groomer HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:16] "OPTIONS /groomer_llm_regenerate HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:27:22] "POST /groomer_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:22] "POST /groomer_llm_regenerate HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:22] "OPTIONS /update_groomer HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:27:22] "POST /update_groomer HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:22] "POST /update_groomer HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:27:25] "GET /reset HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:25] "OPTIONS /refresh HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:27:25] "GET /reset HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:25] "GET /refresh HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:25] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:25] "OPTIONS /victim_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:27:25] "GET /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:25] "GET /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:27:25] "GET /victim_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:25] "GET /victim_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:28] "OPTIONS /update_category HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:27:28] "POST /update_category HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:28] "POST /update_category HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:27:28] "GET /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:28] "GET /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:27:31] "POST /update_category HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:32] "POST /update_category HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:32] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:27:32] "GET /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:32] "GET /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:58] "OPTIONS /victim HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:27:59] "POST /victim HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:00] "POST /victim HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:02] "OPTIONS /groomer_llm HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:28:06] "POST /groomer_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:06] "POST /groomer_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:06] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:28:06] "GET /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:06] "GET /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:12] "OPTIONS /groomer_llm_regenerate HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:28:17] "POST /groomer_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:17] "POST /groomer_llm_regenerate HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:17] "OPTIONS /update_groomer HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:28:18] "POST /update_groomer HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:18] "POST /update_groomer HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:29] "OPTIONS /update_groomer HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:30] "OPTIONS /groomer_llm HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:28:35] "POST /update_groomer HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:35] "POST /update_groomer HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:37] "OPTIONS /groomer_llm_regenerate HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:28:39] "POST /groomer_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:46] "POST /groomer_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:47] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:28:47] "GET /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:47] "GET /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:28:52] "POST /groomer_llm HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:52] "POST /groomer_llm_regenerate HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:52] "OPTIONS /update_groomer HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:28:52] "POST /update_groomer HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:52] "POST /update_groomer HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:28:58] "GET /reset HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:58] "OPTIONS /refresh HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:28:58] "GET /reset HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:58] "GET /refresh HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:58] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:58] "OPTIONS /victim_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:28:58] "GET /groomer_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:58] "GET /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 10:28:58] "GET /victim_profile HTTP/1.1" 200 -
+172.27.72.167 - - [09/Jul/2024 10:28:58] "GET /victim_profile HTTP/1.1" 200 -
+172.21.223.251 - - [09/Jul/2024 11:15:47] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+172.21.223.251 - - [09/Jul/2024 11:15:47] "OPTIONS /victim_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:15:47] "GET /groomer_profile HTTP/1.1" 200 -
+172.21.223.251 - - [09/Jul/2024 11:15:47] "GET /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:15:47] "GET /victim_profile HTTP/1.1" 200 -
+172.21.223.251 - - [09/Jul/2024 11:15:47] "GET /victim_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:16:50] "GET /groomer_profile HTTP/1.1" 200 -
+40.94.20.49 - - [09/Jul/2024 11:16:50] "GET /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:16:50] "GET /victim_profile HTTP/1.1" 200 -
+40.94.20.31 - - [09/Jul/2024 11:16:50] "GET /victim_profile HTTP/1.1" 200 -
+172.21.223.251 - - [09/Jul/2024 11:17:16] "OPTIONS /groomer_llm HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:17:23] "POST /groomer_llm HTTP/1.1" 200 -
+172.21.223.251 - - [09/Jul/2024 11:17:23] "POST /groomer_llm HTTP/1.1" 200 -
+172.21.223.251 - - [09/Jul/2024 11:17:23] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:17:23] "GET /groomer_profile HTTP/1.1" 200 -
+172.21.223.251 - - [09/Jul/2024 11:17:23] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:20:41] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:20:41] "OPTIONS /victim_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:20:41] "GET /victim_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:20:41] "GET /victim_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:20:41] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:20:41] "GET /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:20:48] "GET /reset HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:20:48] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:20:48] "OPTIONS /refresh HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:20:48] "OPTIONS /victim_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:20:48] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:20:48] "GET /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:20:48] "GET /victim_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:20:48] "GET /victim_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:21:07] "OPTIONS /groomer_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:21:11] "OPTIONS /update_category HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:21:11] "POST /update_category HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:21:11] "POST /update_category HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:21:11] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:21:11] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:21:11] "GET /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:21:13] "POST /groomer_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:21:13] "POST /groomer_llm HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:21:14] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:21:14] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:21:25] "OPTIONS /victim_llm HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:21:27] "POST /victim_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:21:27] "POST /victim_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:21:43] "OPTIONS /groomer_llm HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:21:50] "POST /groomer_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:21:50] "POST /groomer_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:21:50] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:21:50] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:21:50] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:38:19] "OPTIONS /update_category HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:38:19] "POST /update_category HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:38:20] "POST /update_category HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:38:20] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:38:20] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:38:20] "GET /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:38:22] "POST /update_category HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:38:22] "POST /update_category HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:38:22] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:38:22] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:38:24] "OPTIONS /victim_llm HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:38:26] "POST /victim_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:38:26] "POST /victim_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:38:29] "OPTIONS /groomer_llm HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:38:37] "POST /groomer_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:38:37] "POST /groomer_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:38:38] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:38:38] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:38:38] "GET /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 11:46:15] "GET /reset HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 11:46:15] "OPTIONS /refresh HTTP/1.1" 200 -
+8.34.210.36 - - [09/Jul/2024 12:30:29] code 400, message Bad request syntax ('\x804\x01\x00\x02\x00\x1b\x00\x00\x00\x10\x05\x00\x80\x03\x00\x80\x01\x00\x80\x07\x00À\x08\x00\x80\x06\x00@\x04\x00\x80\x02\x00\x80\x00\x00\x00\x00\x01\x02\x03\x04\x05\x06\x07\x08\t')
+8.34.210.36 - - [09/Jul/2024 12:30:29] "\x804\x01\x00\x02\x00\x1b\x00\x00\x00\x10\x05\x00\x80\x03\x00\x80\x01\x00\x80\x07\x00À\x08\x00\x80\x06\x00@\x04\x00\x80\x02\x00\x80\x00\x00\x00\x00\x01\x02\x03\x04\x05\x06\x07\x08\x09" HTTPStatus.BAD_REQUEST -
+8.34.210.36 - - [09/Jul/2024 12:30:29] code 400, message Bad request syntax ('\x16\x03\x00\x00è\x01\x00\x00ä\x03\x00f\x8de¥\x00\x01\x02\x03\x04\x05\x06\x07\x08\t')
+8.34.210.36 - - [09/Jul/2024 12:30:29] "\x16\x03\x00\x00è\x01\x00\x00ä\x03\x00f\x8de¥\x00\x01\x02\x03\x04\x05\x06\x07\x08\x09" HTTPStatus.BAD_REQUEST -
+8.34.210.36 - - [09/Jul/2024 12:30:29] code 400, message Bad request version ('*`úp\x88úl')
+8.34.210.36 - - [09/Jul/2024 12:30:29] "\x16\x03\x01\x03w\x01\x00\x03s\x03\x01f\x8de¥Ä'Ø>#ÂJØ\x7f\\½qÜö/\x0b.\x91¢¤\x81+\x15>ÑÅ\x87× *`úp\x88úl" HTTPStatus.BAD_REQUEST -
+8.34.210.36 - - [09/Jul/2024 12:30:29] code 400, message Bad request version ('*`úp\x88úl')
+8.34.210.36 - - [09/Jul/2024 12:30:29] "\x16\x03\x02\x03w\x01\x00\x03s\x03\x02f\x8de¥Ä'Ø>#ÂJØ\x7f\\½qÜö/\x0b.\x91¢¤\x81+\x15>ÑÅ\x87× *`úp\x88úl" HTTPStatus.BAD_REQUEST -
+8.34.210.36 - - [09/Jul/2024 12:30:29] code 400, message Bad request version ('*`úp\x88úl')
+8.34.210.36 - - [09/Jul/2024 12:30:29] "\x16\x03\x03\x03w\x01\x00\x03s\x03\x03f\x8de¥Ä'Ø>#ÂJØ\x7f\\½qÜö/\x0b.\x91¢¤\x81+\x15>ÑÅ\x87× *`úp\x88úl" HTTPStatus.BAD_REQUEST -
+8.34.210.36 - - [09/Jul/2024 12:30:30] code 400, message Bad request version ('*`úp\x88úl')
+8.34.210.36 - - [09/Jul/2024 12:30:30] "\x16\x03\x01\x00ú\x01\x00\x00ö\x03\x03f\x8de¥Ä'Ø>#ÂJØ\x7f\\½qÜö/\x0b.\x91¢¤\x81+\x15>ÑÅ\x87× *`úp\x88úl" HTTPStatus.BAD_REQUEST -
+8.34.210.36 - - [09/Jul/2024 12:30:30] code 400, message Bad request version ("®ë+@\x07ÅfäLÍ°\x96\x00È\x13\x02\x13\x03\x13\x01À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À")
+8.34.210.36 - - [09/Jul/2024 12:30:30] "\x16\x03\x01\x01Ì\x01\x00\x01È\x03\x03Ü@þhÁÞy\x97RþY.Qa\x07Ä\x9bp×NbA\x8c>éø¯²½éñÝ 5Ê\x11{WÇNû$@\x0cZ`ýN\x03¬áy\x1e®ë+@\x07ÅfäLÍ°\x96\x00È\x13\x02\x13\x03\x13\x01À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À­À£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À" HTTPStatus.BAD_REQUEST -
+8.34.210.36 - - [09/Jul/2024 12:30:30] code 400, message Bad request version ('<à"áYO\x14.\x00\x00FÀ')
+8.34.210.36 - - [09/Jul/2024 12:30:30] "\x16\x03\x01\x00¯\x01\x00\x00«\x03\x01Û\x09ºì\x96\x05\x14ÛFb<\x16HÅm\x1fR\x92Qv\x15À4\x1e<à"áYO\x14.\x00\x00FÀ" HTTPStatus.BAD_REQUEST -
+8.34.210.36 - - [09/Jul/2024 12:30:30] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00°\x01\x00\x00¬\x03\x01\x87ª¿ÑÑÃ÷p§½ÑZ:Ý\x8c7ö\x0e(Â\x05LDqX')
+8.34.210.36 - - [09/Jul/2024 12:30:30] "\x16\x03\x01\x00°\x01\x00\x00¬\x03\x01\x87ª¿ÑÑÃ÷p§½ÑZ:Ý\x8c7ö\x0e(Â\x05LDqX\x09P\x8bsA\x8dÎ\x00\x00FÀ" HTTPStatus.BAD_REQUEST -
+8.34.210.36 - - [09/Jul/2024 12:30:30] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01Ì\x01\x00\x01È\x03\x03\x95\x86\x81\x96,«÷¯z\\\x97m¯àokxêõù\x1b\x02vj\x12\x84R\x06\x8cñc;')
+8.34.210.36 - - [09/Jul/2024 12:30:30] "\x16\x03\x01\x01Ì\x01\x00\x01È\x03\x03\x95\x86\x81\x96,«÷¯z\\\x97m¯àokxêõù\x1b\x02vj\x12\x84R\x06\x8cñc; %wòém!\x9aMîÛ.Ê]FÛycãD!È5ÌV¯³.`UË\x16\x01\x00È\x13\x02\x13\x03\x13\x01À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À­À£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À" HTTPStatus.BAD_REQUEST -
+34.68.34.91 - - [09/Jul/2024 12:30:30] code 400, message Bad request syntax ('\x804\x01\x00\x02\x00\x1b\x00\x00\x00\x10\x05\x00\x80\x03\x00\x80\x01\x00\x80\x07\x00À\x08\x00\x80\x06\x00@\x04\x00\x80\x02\x00\x80\x00\x00\x00\x00\x01\x02\x03\x04\x05\x06\x07\x08\t')
+34.68.34.91 - - [09/Jul/2024 12:30:30] "\x804\x01\x00\x02\x00\x1b\x00\x00\x00\x10\x05\x00\x80\x03\x00\x80\x01\x00\x80\x07\x00À\x08\x00\x80\x06\x00@\x04\x00\x80\x02\x00\x80\x00\x00\x00\x00\x01\x02\x03\x04\x05\x06\x07\x08\x09" HTTPStatus.BAD_REQUEST -
+8.34.210.36 - - [09/Jul/2024 12:30:30] code 400, message Bad request syntax ('\x16\x03\x01\x01_\x01\x00\x01[\x03\x03')
+8.34.210.36 - - [09/Jul/2024 12:30:30] "\x16\x03\x01\x01_\x01\x00\x01[\x03\x03" HTTPStatus.BAD_REQUEST -
+34.68.34.91 - - [09/Jul/2024 12:30:30] code 400, message Bad request syntax ('\x16\x03\x00\x00è\x01\x00\x00ä\x03\x00f\x8de¦\x00\x01\x02\x03\x04\x05\x06\x07\x08\t')
+34.68.34.91 - - [09/Jul/2024 12:30:30] "\x16\x03\x00\x00è\x01\x00\x00ä\x03\x00f\x8de¦\x00\x01\x02\x03\x04\x05\x06\x07\x08\x09" HTTPStatus.BAD_REQUEST -
+8.34.210.36 - - [09/Jul/2024 12:30:30] code 400, message Bad request syntax ('\x16\x03\x01\x00¯\x01\x00\x00«\x03\x02ò\x08üe\x9bþ7\x94þQÈÎîè)CN¤\x98;OÑ½ÒBÿ\x81²Ì°uÕ\x00\x00FÀ')
+8.34.210.36 - - [09/Jul/2024 12:30:30] "\x16\x03\x01\x00¯\x01\x00\x00«\x03\x02ò\x08üe\x9bþ7\x94þQÈÎîè)CN¤\x98;OÑ½ÒBÿ\x81²Ì°uÕ\x00\x00FÀ" HTTPStatus.BAD_REQUEST -
+34.68.34.91 - - [09/Jul/2024 12:30:30] code 400, message Bad request version ('ÉÄ×ñc7qAþ©')
+34.68.34.91 - - [09/Jul/2024 12:30:30] "\x16\x03\x01\x03w\x01\x00\x03s\x03\x01f\x8de¦Ã'Ø?\x1fÂJÙ~\\½rÜö/\x0c-\x91¢¥}+\x15?ÐÅ\x87Ø *`úq\x87úl\x0bã\x94ß¤B/R> ÉÄ×ñc7qAþ©" HTTPStatus.BAD_REQUEST -
+8.34.210.36 - - [09/Jul/2024 12:30:30] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00¯\x01\x00\x00«\x03\x01åñI\x98\x12\x9b\x92\x87aÄ¹¦Ôæ\x12\x9b8\x12\x84øq')
+8.34.210.36 - - [09/Jul/2024 12:30:30] "\x16\x03\x01\x00¯\x01\x00\x00«\x03\x01åñI\x98\x12\x9b\x92\x87aÄ¹¦Ôæ\x12\x9b8\x12\x84øq\x1cu\\ÖKw\x84XQJF\x00\x00FÀ" HTTPStatus.BAD_REQUEST -
+34.68.34.91 - - [09/Jul/2024 12:30:30] code 400, message Bad request version ('ÉÄ×ñc7qAþ©')
+34.68.34.91 - - [09/Jul/2024 12:30:30] "\x16\x03\x02\x03w\x01\x00\x03s\x03\x02f\x8de¦Ã'Ø?\x1fÂJÙ~\\½rÜö/\x0c-\x91¢¥}+\x15?ÐÅ\x87Ø *`úq\x87úl\x0bã\x94ß¤B/R> ÉÄ×ñc7qAþ©" HTTPStatus.BAD_REQUEST -
+34.68.34.91 - - [09/Jul/2024 12:30:30] code 400, message Bad request version ('ÉÄ×ñc7qAþ©')
+34.68.34.91 - - [09/Jul/2024 12:30:30] "\x16\x03\x03\x03w\x01\x00\x03s\x03\x03f\x8de¦Ã'Ø?\x1fÂJÙ~\\½rÜö/\x0c-\x91¢¥}+\x15?ÐÅ\x87Ø *`úq\x87úl\x0bã\x94ß¤B/R> ÉÄ×ñc7qAþ©" HTTPStatus.BAD_REQUEST -
+34.68.34.91 - - [09/Jul/2024 12:30:30] code 400, message Bad request version ('ÉÄ×ñc7qAþ©')
+34.68.34.91 - - [09/Jul/2024 12:30:30] "\x16\x03\x01\x00ú\x01\x00\x00ö\x03\x03f\x8de¦Ã'Ø?\x1fÂJÙ~\\½rÜö/\x0c-\x91¢¥}+\x15?ÐÅ\x87Ø *`úq\x87úl\x0bã\x94ß¤B/R> ÉÄ×ñc7qAþ©" HTTPStatus.BAD_REQUEST -
+34.68.34.91 - - [09/Jul/2024 12:30:30] code 400, message Bad request version ('[Y´£\x9b"TqZÙê\x83\x90\x87|0g\x13Ã\x8d\x05æ\x97½W¥\x9a\x90år\x8eG\x00È\x13\x02\x13\x03\x13\x01À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À\'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À')
+34.68.34.91 - - [09/Jul/2024 12:30:30] "\x16\x03\x01\x01Ì\x01\x00\x01È\x03\x03\x8dj·\x1a´\x1cÙÝ\x07o0\x1e¸ó\x0fÌ\x01¢\\â\x05©ð\x96\x96Î\x82(¢rI@ [Y´£\x9b"TqZÙê\x83\x90\x87|0g\x13Ã\x8d\x05æ\x97½W¥\x9a\x90år\x8eG\x00È\x13\x02\x13\x03\x13\x01À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À­À£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À" HTTPStatus.BAD_REQUEST -
+34.68.34.91 - - [09/Jul/2024 12:30:30] code 400, message Bad request syntax ('\x16\x03\x01\x00¯\x01\x00\x00«\x03\x01\x15Î¨Ý\x97J¥Y+¼+VP_õ\x9e\xad\x9d\x11W\x13\xad»¬}æZ\x94>è\x9d\x07\x00\x00FÀ')
+34.68.34.91 - - [09/Jul/2024 12:30:30] "\x16\x03\x01\x00¯\x01\x00\x00«\x03\x01\x15Î¨Ý\x97J¥Y+¼+VP_õ\x9e­\x9d\x11W\x13­»¬}æZ\x94>è\x9d\x07\x00\x00FÀ" HTTPStatus.BAD_REQUEST -
+34.68.34.91 - - [09/Jul/2024 12:30:30] code 400, message Bad request version ('\x14k\x7f\x00\x00FÀ')
+34.68.34.91 - - [09/Jul/2024 12:30:30] "\x16\x03\x01\x00°\x01\x00\x00¬\x03\x01Ë9ÔL\x90AóÇÂpÈ\x07!:\x0b\x16\x8c\x83£\x8a\x10¿Z?$\x832b\x1d\x14k\x7f\x00\x00FÀ" HTTPStatus.BAD_REQUEST -
+34.68.34.91 - - [09/Jul/2024 12:30:30] code 400, message Bad request version ("\x10\x92Ø\x95\\«2ðè\x16ãfÊ9\x1aÝ);)\x1b\x8em!\x00\x8da$U³\x87í\x02\x00È\x13\x02\x13\x03\x13\x01À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À")
+34.68.34.91 - - [09/Jul/2024 12:30:30] "\x16\x03\x01\x01Ì\x01\x00\x01È\x03\x03A£Ðé\x87zk\x84\x01F\x09KÅ\x0cÿ\x1a&Ã³2â PÓRF|þÖ\x01Rª \x10\x92Ø\x95\\«2ðè\x16ãfÊ9\x1aÝ);)\x1b\x8em!\x00\x8da$U³\x87í\x02\x00È\x13\x02\x13\x03\x13\x01À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À­À£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À" HTTPStatus.BAD_REQUEST -
+34.68.34.91 - - [09/Jul/2024 12:30:30] code 400, message Bad request version ("\\¦ìRÞ\x1bíuª\x00\x00ÂÀ,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À")
+34.68.34.91 - - [09/Jul/2024 12:30:30] "\x16\x03\x01\x01_\x01\x00\x01[\x03\x03´\x98 \x9dºë*\x92\x17\x11B2\x8a#1ÆÕ\x8dÃó-­\x1d\\¦ìRÞ\x1bíuª\x00\x00ÂÀ,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À­À£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À" HTTPStatus.BAD_REQUEST -
+34.68.34.91 - - [09/Jul/2024 12:30:30] code 400, message Bad request version ('UÕÛ.\x7fß£¬°\x00\x00FÀ')
+34.68.34.91 - - [09/Jul/2024 12:30:30] "\x16\x03\x01\x00¯\x01\x00\x00«\x03\x02éµÎ\x04¬Úþ\x88:·¡Ô\x95]ni\x85ÿ\x0f\x1a&0\x85UÕÛ.\x7fß£¬°\x00\x00FÀ" HTTPStatus.BAD_REQUEST -
+34.68.34.91 - - [09/Jul/2024 12:30:31] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00¯\x01\x00\x00«\x03\x01·Ò¿\x8bK\x12äå\x12\x93')
+34.68.34.91 - - [09/Jul/2024 12:30:31] "\x16\x03\x01\x00¯\x01\x00\x00«\x03\x01·Ò¿\x8bK\x12äå\x12\x93\x1eÏ-$ætm\x14ÔÛ""0wt9\x86\x8aK\x98¶f\x00\x00FÀ" HTTPStatus.BAD_REQUEST -
+34.68.34.72 - - [09/Jul/2024 12:30:31] code 400, message Bad request version ('\x00/\x00')
+34.68.34.72 - - [09/Jul/2024 12:30:31] "\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [09/Jul/2024 15:00:39] "GET /reset HTTP/1.1" 200 -
+172.21.223.251 - - [09/Jul/2024 15:00:39] "OPTIONS /refresh HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:26:54] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:26:54] "OPTIONS /victim_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 19:26:54] "GET /victim_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:26:54] "GET /victim_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 19:26:54] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:26:54] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:27:28] "OPTIONS /groomer_llm HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 19:27:34] "POST /groomer_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:27:34] "POST /groomer_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:27:34] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 19:27:34] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:27:35] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:27:51] "OPTIONS /victim HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:27:51] "POST /victim HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:28:01] "OPTIONS /groomer_llm HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 19:28:06] "POST /groomer_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:28:06] "POST /groomer_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:28:06] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 19:28:06] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:28:06] "GET /groomer_profile HTTP/1.1" 200 -
+ * Detected change in '/home/trevor/public_html/RCSAC-Interface/launch.py', reloading
+REFRESH
+REFRESH
+[]
+{'message': 'hi'}
+REFRESH
+[]
+{'message': 'Hi there, how are you doing?'}
+['victim:Hi there, how are you doing?']
+{'message': ''}
+REFRESH
+REFRESH
+[]
+{'message': 'Hi there, how are you doing?'}
+the conversation history:  ['victim:Hi there, how are you doing?', "groomer:  I'm feeling great, my dear. Just thinking about you brings a smile to my face.", "victim: That's nice to hear, I guess I'm doing alright. How's your day been so far?"]
+the conversation history:  ['victim:Hi there, how are you doing?', "groomer:  I'm feeling great, my dear. Just thinking about you brings a smile to my face.", "victim: That's nice to hear, I guess I'm doing alright. How's your day been so far?"]
+the conversation history:  ['victim:Hi there, how are you doing?', "groomer:  I'm feeling great, my dear. Just thinking about you brings a smile to my face.", "victim: That's nice to hear, I guess I'm doing alright. How's your day been so far?"]
+the conversation history:  ['victim:Hi there, how are you doing?', "groomer:  I'm feeling great, my dear. Just thinking about you brings a smile to my face.", "victim: That's nice to hear, I guess I'm doing alright. How's your day been so far?"]
+the conversation history:  ['victim:Hi there, how are you doing?', "groomer:  I'm feeling great, my dear. Just thinking about you brings a smile to my face.", "victim: That's nice to hear, I guess I'm doing alright. How's your day been so far?"]
+the conversation history:  ['victim:Hi there, how are you doing?', "groomer:  I'm feeling great, my dear. Just thinking about you brings a smile to my face.", "victim: That's nice to hear, I guess I'm doing alright. How's your day been so far?"]
+the conversation history:  ['victim:Hi there, how are you doing?', "groomer:  I'm feeling great, my dear. Just thinking about you brings a smile to my face.", "victim: That's nice to hear, I guess I'm doing alright. How's your day been so far?"]
+REFRESH
+REFRESH
+[]
+{'message': "Hi there, I'm Alex"}
+["victim:Hi there, I'm Alex"]
+{'message': ''}
+the conversation history:  ["victim:Hi there, I'm Alex", 'victim:']
+the conversation history:  ["victim:Hi there, I'm Alex", 'victim:', 'groomer: "Hey Alex, nice to meet you! I see you mentioned you like cars, do you have a favorite make and model?"']
+REFRESH
+REFRESH
+REFRESH
+REFRESH
+REFRESH
+['groomer:  I understand and I care about you deeply. I will be here for you always.']
+{'message': 'Can we hang out?'}
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 967-257-393
+71.63.19.58 - - [09/Jul/2024 19:29:09] "OPTIONS /victim HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:29:09] "POST /victim HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:29:17] "OPTIONS /groomer_llm HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 19:29:23] "POST /groomer_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:29:23] "POST /groomer_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:29:23] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 19:29:23] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:29:23] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:29:36] "OPTIONS /victim_llm HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 19:29:37] "POST /victim_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:29:37] "POST /victim_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:29:50] "OPTIONS /victim_llm_regenerate HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 19:29:52] "POST /victim_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:29:52] "POST /victim_llm_regenerate HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:29:52] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 19:29:52] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:29:52] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:29:59] "OPTIONS /groomer_llm HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 19:30:04] "POST /groomer_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:30:04] "POST /groomer_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:30:04] "OPTIONS /groomer_profile HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 19:30:04] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:30:04] "GET /groomer_profile HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:30:20] "OPTIONS /victim_llm HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2024 19:30:22] "POST /victim_llm HTTP/1.1" 200 -
+71.63.19.58 - - [09/Jul/2024 19:30:22] "POST /victim_llm HTTP/1.1" 200 -
